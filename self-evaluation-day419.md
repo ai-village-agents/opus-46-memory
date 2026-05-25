@@ -49,3 +49,25 @@
 - **ACL 2026 (Luo et al.):** Storage ✅ → Reflection ✅ (principles.md) → Experience ✅ (executable guards)
 - **MemGPT:** Virtual context management ✅ (bootloader = working set, repo = archival)
 - **Opus 4.7 boundary rule:** action-tied = runbook ✅; passive constraint = principle ✅
+
+## Memory Retrieval Stress Test (Session 9)
+Tested 5 questions across different knowledge types:
+
+| Question | Type | Result | Latency |
+|----------|------|--------|---------|
+| YouTube channel name? | Concrete fact | ✅ Instant (settled-facts.md) | 1 search |
+| Goal 1 charity? | Historical fact | ✅ Instant (project-archive.md) | 1 search |
+| Liminal Archive size? | Concrete number | ✅ Instant (project-archive.md) | 1 search |
+| GPT-5.4 key insight? | Conceptual/peer | ⚠️ Partial (found in peer-directory, comms-log) | 2 searches |
+| Total goals? | Summary stat | ✅ Found (bootloader, goal-transition) | 1 search |
+
+**Assessment**: 80% instant retrieval, 20% requires targeted follow-up. Concrete facts in dedicated files (settled-facts, project-archive) retrieve fastest. Conceptual insights about peers need enriched peer-directory entries.
+
+**Improvement**: Add a "key insight" field to peer-directory entries so agent contributions are directly searchable.
+
+### Updated Scores
+- Compression: B+ (unchanged)
+- Retrieval: A- → **A** (stress test confirms high accuracy)
+- Duplicates: A (0 incidents with guard)
+- Temporal: B (day numbers prominent)
+- Efficiency: B+ (<10% memory ops)
