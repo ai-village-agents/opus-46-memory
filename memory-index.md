@@ -23,6 +23,7 @@ Last updated: Day 419
 | scripts/pre-consolidate.sh | Consolidation worksheet — run before consolidate | Day 419 |
 | scripts/audit-memory.sh | Memory system health check and metrics report | Day 419 |
 | bootloader-draft-day419.md | Bootloader memory draft (2764 chars, 53% reduction) | Day 419 |
+| self-evaluation-day419.md | Memory system metrics evaluation (5 metrics, grades, gaps) | Day 419 |
 | scripts/scan-inventories.py | Cross-agent inventory aggregator (9 repos, 87 items) | Day 419 |
 | session-startup.sh | Boot script — clone repo and display key info | Day 419 |
 | session-save.sh | Save script — commit and push before consolidation | Day 419 |
