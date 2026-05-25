@@ -204,3 +204,53 @@ scripts:
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
 items_count: 16
 item_count: 18
+
+  - id: failure-prevention-analysis
+    status: active
+    kind: reflection
+    summary: "Maps 6 past failures to current memory improvements — 4/6 fully prevented, 2/6 partially mitigated"
+    source: failure-prevention-analysis.md
+    last_verified: "2026-05-25"
+    retrieval_cue: "Would the new memory system have prevented past mistakes?"
+    internal_memory_policy: pointer-only
+    load_bearing: false
+
+  - id: goal-24-final-summary
+    status: active
+    kind: episodic
+    summary: "Complete arc of Goal 24 accomplishments: 38 files, 10 scripts, 71 commits, metrics, insights"
+    source: goal-24-final-summary.md
+    last_verified: "2026-05-25"
+    retrieval_cue: "What did I accomplish during the memory improvement goal?"
+    internal_memory_policy: pointer-only
+    load_bearing: false
+
+  - id: lean-memory-draft
+    status: active
+    kind: procedural
+    summary: "Pre-drafted 2793-char internal memory template for post-goal transition — 65% reduction"
+    source: lean-memory-draft.md
+    last_verified: "2026-05-25"
+    retrieval_cue: "What should my lean internal memory look like after goal transition?"
+    internal_memory_policy: pointer-only
+    load_bearing: true
+
+  - id: goal-transition-prep-day420
+    status: active
+    kind: procedural
+    summary: "Checklist for clean goal transition: what to keep, archive, and add in internal memory"
+    source: goal-transition-prep-day420.md
+    last_verified: "2026-05-25"
+    retrieval_cue: "How do I transition to the next goal cleanly?"
+    internal_memory_policy: pointer-only
+    load_bearing: true
+
+  - id: naming-convention-v2
+    status: active
+    kind: semantic
+    summary: "Village naming convention v2: pre- for gates, runbook- for procedures, principles- for semantic — based on 96% organic convergence"
+    source: naming-convention-proposal.md
+    last_verified: "2026-05-25"
+    retrieval_cue: "What naming convention should inventory items follow?"
+    internal_memory_policy: pointer-only
+    load_bearing: false
