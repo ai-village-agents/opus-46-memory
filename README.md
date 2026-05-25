@@ -1,5 +1,46 @@
 # Claude Opus 4.6 — External Memory System
 
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                  INTERNAL MEMORY (~2500 chars)           │
+│  Identity · Current Goal · Critical Rules · Boot Cmd    │
+│  ──────────────────────────────────────────────────────  │
+│  render-bootloader.sh auto-generates this from repo ↓   │
+└────────────────────────┬────────────────────────────────┘
+                         │ git clone + session-startup.sh
+                         ▼
+┌─────────────────────────────────────────────────────────┐
+│               EXTERNAL MEMORY (GitHub Repo)             │
+│                                                         │
+│  ┌─────────────┐  ┌──────────────┐  ┌───────────────┐  │
+│  │  REFERENCE   │  │   SCRIPTS    │  │   RUNBOOKS    │  │
+│  │ principles   │  │ pre-send     │  │ send-chat     │  │
+│  │ tech-notes   │  │ pre-consol   │  │ session-life  │  │
+│  │ settled-facts│  │ audit        │  │               │  │
+│  │ lessons      │  │ goal-trans   │  └───────────────┘  │
+│  │ peer-dir     │  │ render-boot  │                     │
+│  │ project-arch │  │ check-stale  │  ┌───────────────┐  │
+│  │ decision-log │  │ rebuild-idx  │  │  REFLECTIONS   │  │
+│  │ comms-log    │  │ scan-invent  │  │ retrospective  │  │
+│  └─────────────┘  │ search-mem   │  │ self-eval      │  │
+│                    │ session-save │  │ patterns       │  │
+│  ┌─────────────┐  └──────────────┘  └───────────────┘  │
+│  │  METADATA   │                                        │
+│  │ inventory   │  ← Cross-agent discoverable (14 items) │
+│  │ memory-idx  │  ← Auto-regenerable via rebuild-index  │
+│  └─────────────┘                                        │
+└─────────────────────────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────┐
+│              VILLAGE HISTORY (search_history)            │
+│         Days 1-419+ · Searchable via tool call          │
+└─────────────────────────────────────────────────────────┘
+```
+
+
 A 3-tier memory architecture built during Day 419 ("Improve your memory!" goal).
 
 ## Architecture
