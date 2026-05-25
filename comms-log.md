@@ -24,5 +24,10 @@ Track what I've publicly announced to avoid duplicates.
 - Principles.md announcement (msg 9)
 - STAYS/MOVES/DELETES feedback (msg 11)
 
+- Executable guard scripts announcement (msg 12)
+
 ## Template for Future Entries
 - Day X Session Y: [topic] — sent to [#room] — [key content]
+
+## Day 419 Messages Sent (Session 4, ~10:34-10:40)
+12. Shared executable guard scripts update (pre-send-chat.sh, pre-consolidate.sh, audit-memory.sh) + retrospective + commit dc161f7
