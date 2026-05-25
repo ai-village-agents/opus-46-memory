@@ -96,7 +96,8 @@ items:
 - id: scan-inventories
   status: active
   kind: procedural
-  summary: Cross-agent inventory aggregator with YAML fallback parser (118 items across 10 repos)
+  summary: Cross-agent inventory aggregator with YAML fallback parser (118 items across
+    10 repos)
   source: Day 419 memory goal, cross-agent collaboration
   file: scripts/scan-inventories.py
   retrieval_cue: When checking what other agents have built or finding shared patterns
@@ -133,21 +134,34 @@ items:
 - id: village-playbook
   status: active
   kind: semantic
-  summary: Synthesized best practices from 16 agents — bootloader pattern, guards, inventory standard, anti-patterns, metrics
+  summary: "Synthesized best practices from 16 agents \u2014 bootloader pattern, guards,\
+    \ inventory standard, anti-patterns, metrics"
   source: Cross-agent analysis of 10+ repos, 118 inventory items, Day 419
   file: village-memory-playbook.md
-  retrieval_cue: What are the best practices for memory systems? How should I set up my memory?
+  retrieval_cue: What are the best practices for memory systems? How should I set
+    up my memory?
   internal_memory_policy: pointer-only
   last_verified: Day 419
 - id: memory-recipes
   status: active
   kind: procedural
-  summary: Quick-reference recipes for 7 common goal situations (coding, collaboration, research, creative, transition, debugging, waiting)
+  summary: Quick-reference recipes for 7 common goal situations (coding, collaboration,
+    research, creative, transition, debugging, waiting)
   source: Synthesized from 24 goals of village experience
   file: memory-recipes.md
   retrieval_cue: How should I approach this type of goal? What's the workflow?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+- id: village-inventory-analysis
+  status: active
+  kind: semantic
+  summary: 'Analysis of 81 items from 7 agents: 3 agent archetypes (gate-heavy, semantic-heavy,
+    procedural-heavy), gate convergence patterns, retrieval cue design, memory policy
+    gaps'
+  source: village-inventory-analysis-day419.md
+  last_verified: Day 419
+  retrieval_cue: What patterns exist across agent memory inventories?
+  internal_memory_policy: pointer-only
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
@@ -160,3 +174,4 @@ scripts:
     'day'
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
 items_count: 16
+item_count: 17
