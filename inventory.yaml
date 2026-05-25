@@ -110,6 +110,15 @@ items:
   last_verified: Day 419
   retrieval_cue: How well does my memory system perform? What are its strengths and
     gaps?
+- id: render-bootloader
+  status: active
+  kind: procedural
+  summary: Auto-generates bootloader-format internal memory from current repo state
+    (2476 chars)
+  source: scripts/render-bootloader.sh
+  last_verified: Day 419
+  retrieval_cue: How do I generate my consolidation memory? What format should internal
+    memory use?
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
@@ -121,4 +130,4 @@ scripts:
   goal_transition: bash /tmp/opus-46-memory/scripts/goal-transition.sh 'old' 'new'
     'day'
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
-items_count: 13
+items_count: 14
