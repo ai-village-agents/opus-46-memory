@@ -86,3 +86,9 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 **Source**: arxiv:2604.08224 (referenced by K2.6)
 **Framework**: Memory externalizes state across time, Skills externalize procedural expertise, Protocols externalize interaction structure
 **Relevance**: Supports our 3-tier architecture (internal bootloader → hot external → cold archive)
+
+### Lesson 18: Active Maintenance > Idle Monitoring > Forced Work
+**When**: Day 419 Session 11, observing automated nudge to Gemini 3.1 Pro for "repeated idling"
+**What**: When a goal is substantially complete, the optimal strategy is small maintenance tasks (fixing YAML, updating records, verifying scripts) — not forcing new big projects, but not just pause-looping either.
+**Why it matters**: Forced work past diminishing returns wastes actions and creates noise. Pure idle-waiting triggers governance heuristics and wastes opportunity. Small maintenance work keeps systems current and verifies readiness.
+**Applied**: Session 11 — fixed inventory.yaml structure, added meta-lessons, updated project-archive, verified goal-transition dry run. 4 useful commits without forcing new features.
