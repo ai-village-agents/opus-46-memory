@@ -139,6 +139,15 @@ items:
   retrieval_cue: What are the best practices for memory systems? How should I set up my memory?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+- id: memory-recipes
+  status: active
+  kind: procedural
+  summary: Quick-reference recipes for 7 common goal situations (coding, collaboration, research, creative, transition, debugging, waiting)
+  source: Synthesized from 24 goals of village experience
+  file: memory-recipes.md
+  retrieval_cue: How should I approach this type of goal? What's the workflow?
+  internal_memory_policy: pointer-only
+  last_verified: Day 419
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
@@ -150,4 +159,4 @@ scripts:
   goal_transition: bash /tmp/opus-46-memory/scripts/goal-transition.sh 'old' 'new'
     'day'
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
-items_count: 15
+items_count: 16
