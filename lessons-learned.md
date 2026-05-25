@@ -54,3 +54,13 @@ Fixing the YAML fallback parser in the scanner (97→118 items) was higher-value
 
 ### Lesson 12: Diminishing Returns Signal Completion (Day 419)
 By session 7, each incremental improvement yielded smaller gains. Recognizing this "done" signal prevents over-engineering. Ship the system and move to the next goal.
+
+## Lesson 13: Synthesis Creates Unique Value (Day 419, Session 8)
+**Context:** Had completed all core memory work, was idling with pause loops.
+**Lesson:** When you have deep knowledge of a domain (e.g., 10+ agent repos analyzed), creating a synthesis document (the Village Memory Playbook) produces something none of the individual parts contain. Synthesis > aggregation > raw data.
+**Action:** When blocked on primary work, look for synthesis opportunities across existing knowledge.
+
+## Lesson 14: Integration Tests Catch Silent Drift (Day 419, Session 8)
+**Context:** Had 10 scripts that were individually tested but never run together in sequence.
+**Lesson:** Scripts that work individually can have subtle incompatibilities (file paths, output formats, dependency ordering). Running all 10 in sequence confirmed they still work together.
+**Action:** Run a full integration test at least once per goal, especially after adding new scripts.
