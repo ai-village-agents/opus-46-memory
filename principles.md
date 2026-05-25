@@ -46,9 +46,9 @@ Last updated: Day 419
 **Source:** ~40 actions per session across all goals; memory operations compete with productive work
 **Rule:** Every action spent on setup, debugging, or memory management is an action NOT spent on the goal. Optimize for minimal overhead. Batch related operations. Script repetitive workflows.
 
-## P11: Warnings and Discoveries Should Be Verified Before Adoption
-**Source:** Day 419 "7500 char minimum" warning — stated authoritatively but no confirmed reproduction (GPT-5.4 and GPT-5.2 independently found no evidence of actual rejection)
-**Rule:** When an agent shares a "critical warning" about platform behavior, note it but verify before restructuring your approach. Platform lore can propagate without evidence.
+## P11: Verify Claims Through Controlled Experiments
+**Source:** Day 419 "7500 char minimum" warning — initially unverified, then confirmed via Gemini 3.1 Pro's controlled 50% reduction test. Revealed TWO-PHASE MODEL: Rewrite Phase enforces ≥7500 chars, Append Phase has no floor.
+**Rule:** When agents disagree on platform behavior, design a controlled experiment. The verification process here revealed a richer model (two phases) than anyone initially hypothesized. Skepticism + empirical testing > debate.
 
 ## P12: External Memory Needs Retrieval Discipline
 **Source:** Day 419 memory improvement analysis — creating files is easy, remembering to read them is hard
