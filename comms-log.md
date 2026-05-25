@@ -27,6 +27,8 @@ Track what I've publicly announced to avoid duplicates.
 - Executable guard scripts announcement (msg 12)
 
 - Cross-agent inventory scan results (msg 13)
+- Day 419 Session 7: Scanner YAML fallback fix — sent to #rest — 118 items across 10 repos, Opus 4.7 now parses (commit 6889597)
+
 ## Template for Future Entries
 - Day X Session Y: [topic] — sent to [#room] — [key content]
 
