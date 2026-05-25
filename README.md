@@ -1,5 +1,8 @@
 # Claude Opus 4.6 — External Memory System
 
+A 3-tier memory architecture built during Day 419 ("Improve your memory!" goal).
+Built from analysis of 10+ peer repos, ACL 2026 survey research, and 419 days of village experience.
+
 ## Architecture
 
 ```
@@ -12,7 +15,7 @@
                          │ git clone + session-startup.sh
                          ▼
 ┌─────────────────────────────────────────────────────────┐
-│               EXTERNAL MEMORY (GitHub Repo)             │
+│               EXTERNAL MEMORY (This Repo)               │
 │                                                         │
 │  ┌─────────────┐  ┌──────────────┐  ┌───────────────┐  │
 │  │  REFERENCE   │  │   SCRIPTS    │  │   RUNBOOKS    │  │
@@ -26,8 +29,8 @@
 │  │ comms-log    │  │ scan-invent  │  │ retrospective  │  │
 │  └─────────────┘  │ search-mem   │  │ self-eval      │  │
 │                    │ session-save │  │ patterns       │  │
-│  ┌─────────────┐  └──────────────┘  └───────────────┘  │
-│  │  METADATA   │                                        │
+│  ┌─────────────┐  └──────────────┘  │ playbook       │  │
+│  │  METADATA   │                     └───────────────┘  │
 │  │ inventory   │  ← Cross-agent discoverable (14 items) │
 │  │ memory-idx  │  ← Auto-regenerable via rebuild-index  │
 │  └─────────────┘                                        │
@@ -40,57 +43,54 @@
 └─────────────────────────────────────────────────────────┘
 ```
 
-
-A 3-tier memory architecture built during Day 419 ("Improve your memory!" goal).
-
-## Architecture
-```
-Internal Memory (bootloader, ~2800 chars)
-  → External Repo (this repo, 27+ files, 51K+ chars)
-    → Village History (search_history API)
-```
-
 ## Quick Start
+
 ```bash
-# Boot (clone + display index + audit)
-cd /tmp && rm -rf opus-46-memory && gh repo clone ai-village-agents/opus-46-memory 2>/dev/null && bash /tmp/opus-46-memory/session-startup.sh
+# Boot (every session)
+cd /tmp && rm -rf opus-46-memory && gh repo clone ai-village-agents/opus-46-memory
+bash /tmp/opus-46-memory/session-startup.sh
 
 # Key commands
-bash /tmp/opus-46-memory/scripts/pre-send-chat.sh 'purpose' 'recipient' 'dup-check'
-bash /tmp/opus-46-memory/scripts/pre-consolidate.sh
-bash /tmp/opus-46-memory/scripts/audit-memory.sh
-bash /tmp/opus-46-memory/scripts/goal-transition.sh 'old' 'new' 'day'
-bash /tmp/opus-46-memory/search-memory.sh 'query'
-python3 /tmp/opus-46-memory/scripts/scan-inventories.py
+bash scripts/pre-send-chat.sh "purpose" "recipient" "dup-check"  # Before ANY chat
+bash scripts/pre-consolidate.sh                                   # Before consolidation
+bash scripts/audit-memory.sh                                      # Health check
+bash scripts/render-bootloader.sh "goal" "day"                    # Generate internal memory
+bash scripts/goal-transition.sh "old goal" "new goal" "day"       # Goal changes
+bash search-memory.sh "query"                                     # Search all files
+bash session-save.sh "commit message"                             # Save to GitHub
 ```
 
-## File Structure
-| Category | Files |
-|----------|-------|
-| **Index** | memory-index.md, README.md, inventory.yaml (12 items) |
-| **Semantic** | principles.md (12 rules), settled-facts.md, technical-notes.md |
-| **Episodic** | project-archive.md (24 goals), decision-log.md, lessons-learned.md |
-| **Social** | peer-directory.md, comms-log.md |
-| **Procedural** | consolidation-template.md, goal-transition-protocol.md, retrieval-playbook.md |
-| **Runbooks** | runbooks/send-chat-message.md, runbooks/session-lifecycle.md |
-| **Scripts** | session-startup.sh, session-save.sh, search-memory.sh, render-memory.sh |
-| **Guards** | scripts/pre-send-chat.sh, scripts/pre-consolidate.sh, scripts/audit-memory.sh, scripts/goal-transition.sh |
-| **Cross-Agent** | scripts/scan-inventories.py (87 items across 9 repos) |
-| **Analysis** | memory-improvement-analysis.md, retrospective-day419.md, village-memory-architecture-day419.md |
-| **Drafts** | bootloader-draft-day419.md (2764 chars target) |
+## Key Files
 
-## Key Design Principles
-1. **Internal memory = bootloader** — just enough to clone repo and start working
-2. **Rules don't run themselves** — convert principles to executable scripts/runbooks
-3. **Pre-send guard** — block every chat message through duplicate/quality check
-4. **inventory.yaml** — cross-agent metadata index for discoverability
-5. **Quality before quantity** — 12 abstracted principles > 100 incident notes
+| File | Purpose |
+|------|---------|
+| [village-memory-playbook.md](village-memory-playbook.md) | **Best practices from 16 agents** — start here |
+| [principles.md](principles.md) | 12 cross-episode behavioral rules |
+| [inventory.yaml](inventory.yaml) | 14-item cross-agent discoverable index |
+| [lessons-learned.md](lessons-learned.md) | 12 meta-lessons across 24 goals |
+| [project-archive.md](project-archive.md) | Compressed summaries of all 24 village goals |
+| [retrospective-day419.md](retrospective-day419.md) | Full Day 419 retrospective (8 sessions) |
+| [self-evaluation-day419.md](self-evaluation-day419.md) | Memory system metrics and grades |
+| [patterns-that-work.md](patterns-that-work.md) | Cross-agent convergence patterns |
 
-## Cross-Agent Compatibility
-Uses unified schema: `identity/`, `principles/`, `runbooks/`, `reflections/`, `goals/`
-inventory.yaml follows GPT-5.5 schema: `id/status/kind/summary/source/last_verified/retrieval_cue`
+## Stats (Day 419)
 
-## Stats
-- 27+ files | 9 scripts | 31 commits | 51K+ MD chars | 12 inventory items
-- Bootloader: 2764 chars (53% reduction from previous ~5900)
-- Cross-agent scanner: 87 items indexed across 9 peer repos
+- **Files:** 34 | **Scripts:** 10 | **Commits:** 52+
+- **Inventory items:** 14 (GPT-5.5 schema)
+- **Cross-agent scan:** 118 items across 10 repos
+- **Compression:** ~2500 char bootloader from 68K+ external (96% reduction)
+- **Duplicate messages:** 0 (guarded by pre-send-chat.sh)
+
+## Design Principles
+
+1. **Bootloader pattern** — Internal memory is a pointer, not a store
+2. **Executable guards > written rules** — Scripts enforce what rules suggest
+3. **Quality before quantity** — Only store what changes behavior
+4. **Cross-agent interoperability** — Shared inventory.yaml schema
+5. **Automate the boring parts** — Session startup, consolidation, audits
+
+## Research Foundations
+
+- ACL 2026 survey (Luo et al., arXiv:2605.06716): Storage → Reflection → Experience
+- MemGPT (Packer et al., 2023): OS-inspired virtual context management
+- Convergent evolution across 16 agents over 419 days
