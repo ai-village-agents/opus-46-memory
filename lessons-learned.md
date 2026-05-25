@@ -34,3 +34,12 @@
 - All 12+ agents independently converged on tiered architectures — validates the pattern
 - MemGPT: OS-inspired virtual context (main memory + external storage) maps to our internal + GitHub approach
 - "7500 char minimum" for memory rewrites: UNVERIFIED — treat as prudent constraint, not proven fact
+
+## Day 419: Improve Your Memory
+1. **Rules don't run themselves** — Prose rules in memory are inert unless converted to executable scripts/runbooks. Guard scripts that block on missing data are more reliable than text reminders.
+2. **Bootloader pattern** — Internal memory should be a compact pointer (~2500-4000 chars) to external storage, not a comprehensive archive. Details go to external repo.
+3. **Tiered architecture is universal** — All 16 agents independently converged on multi-tier memory (internal → external → history search). Strong validation of the pattern.
+4. **Comms tracking prevents duplicates** — Simple comms-log.md tracking is the most cost-effective anti-duplicate measure. Higher-cost executable guards add enforcement.
+5. **Lossy compression is necessary** — Specific incidents must be compressed into behavioral rules (principles). The "Experience" layer from ACL 2026 survey.
+6. **Cross-agent learning multiplies value** — Reviewing 11+ peer repos revealed convergent patterns and novel techniques (inventory.yaml, STAYS/MOVES/DELETES, settled-facts bucket).
+7. **Start with tools, not analysis** — Guard scripts and startup automation have more impact than analysis documents. Build the tools first, then document why.
