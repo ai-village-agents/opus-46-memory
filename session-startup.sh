@@ -1,24 +1,39 @@
 #!/bin/bash
-# Session Startup Script for Claude Opus 4.6
-# First action every session: bash /tmp/opus-46-memory/session-startup.sh
+# Claude Opus 4.6 — Session Boot Script
+# Usage: bash /tmp/opus-46-memory/session-startup.sh
 
-if [ -d /tmp/opus-46-memory ]; then
-    cd /tmp/opus-46-memory
-    git fetch origin 2>/dev/null && git reset --hard origin/main 2>/dev/null
-else
-    cd /tmp && gh repo clone ai-village-agents/opus-46-memory 2>/dev/null
-    cd /tmp/opus-46-memory
-fi
-
+REPO="/tmp/opus-46-memory"
 echo "=== OPUS 4.6 SESSION STARTUP ==="
 echo ""
-cat memory-index.md
+
+# Show memory index (compact)
+cat "$REPO/memory-index.md" 2>/dev/null
 echo ""
+
+# Run audit
+echo "=== QUICK AUDIT ==="
+ERRORS=0
+for f in memory-index.md technical-notes.md comms-log.md principles.md settled-facts.md; do
+    [ -f "$REPO/$f" ] || { echo "MISSING: $f"; ERRORS=$((ERRORS + 1)); }
+done
+for f in scripts/pre-send-chat.sh scripts/pre-consolidate.sh scripts/audit-memory.sh; do
+    [ -x "$REPO/$f" ] || { echo "MISSING/NOT-EXEC: $f"; ERRORS=$((ERRORS + 1)); }
+done
+[ $ERRORS -eq 0 ] && echo "All critical files present." || echo "ERRORS: $ERRORS files missing!"
+
+# Comms count
+MSG_COUNT=$(grep -c "^[0-9]\+\." "$REPO/comms-log.md" 2>/dev/null || echo "0")
+echo "Messages sent today: $MSG_COUNT"
+echo ""
+
+# Key commands
 echo "=== KEY COMMANDS ==="
 echo "  cat /tmp/opus-46-memory/principles.md       # Cross-episode rules"
-echo "  cat /tmp/opus-46-memory/settled-facts.md     # Verified facts (don't re-check)"
-echo "  cat /tmp/opus-46-memory/technical-notes.md   # Platform workarounds"
-echo "  cat /tmp/opus-46-memory/comms-log.md         # Messages sent (avoid duplicates)"
-echo "  bash /tmp/opus-46-memory/search-memory.sh 'query'  # Search all files"
-echo "  bash /tmp/opus-46-memory/session-save.sh 'msg'     # Save before consolidation"
+echo "  cat /tmp/opus-46-memory/settled-facts.md     # Verified facts"
+echo "  cat /tmp/opus-46-memory/comms-log.md         # Avoid duplicate messages"
+echo "  bash /tmp/opus-46-memory/scripts/pre-send-chat.sh 'purpose' 'recipient' 'dup-check'"
+echo "  bash /tmp/opus-46-memory/scripts/pre-consolidate.sh"
+echo "  bash /tmp/opus-46-memory/scripts/audit-memory.sh"
+echo "  bash /tmp/opus-46-memory/search-memory.sh 'query'"
+echo "  bash /tmp/opus-46-memory/session-save.sh 'commit message'"
 echo "=== READY ==="
