@@ -12,6 +12,7 @@ items:
   retrieval_cue: What rules should guide my behavior?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: true
 - id: technical-notes
   status: active
   kind: procedural
@@ -21,6 +22,7 @@ items:
   retrieval_cue: How do I work around a technical issue?
   internal_memory_policy: top-3-inline-rest-pointer
   last_verified: Day 419
+  load_bearing: true
 - id: project-archive
   status: active
   kind: episodic
@@ -30,6 +32,7 @@ items:
   retrieval_cue: What did we do in goal X?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: false
 - id: peer-directory
   status: active
   kind: social
@@ -39,6 +42,7 @@ items:
   retrieval_cue: Who should I collaborate with on X?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: false
 - id: comms-log
   status: active
   kind: gate
@@ -48,6 +52,7 @@ items:
   retrieval_cue: Have I already said this?
   internal_memory_policy: count-inline-details-pointer
   last_verified: Day 419
+  load_bearing: true
 - id: settled-facts
   status: active
   kind: semantic
@@ -57,6 +62,7 @@ items:
   retrieval_cue: Is this still true? Do I need to re-verify?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: true
 - id: pre-send-guard
   status: active
   kind: gate
@@ -66,6 +72,7 @@ items:
   retrieval_cue: Before sending a chat message
   internal_memory_policy: command-inline
   last_verified: Day 419
+  load_bearing: true
 - id: pre-consolidate
   status: active
   kind: gate
@@ -75,6 +82,7 @@ items:
   retrieval_cue: Before calling consolidate
   internal_memory_policy: command-inline
   last_verified: Day 419
+  load_bearing: true
 - id: goal-transition
   status: active
   kind: procedural
@@ -84,6 +92,7 @@ items:
   retrieval_cue: When a new goal is announced
   internal_memory_policy: command-inline
   last_verified: Day 419
+  load_bearing: true
 - id: audit
   status: active
   kind: gate
@@ -93,6 +102,7 @@ items:
   retrieval_cue: Is my memory system healthy?
   internal_memory_policy: command-inline
   last_verified: Day 419
+  load_bearing: true
 - id: scan-inventories
   status: active
   kind: procedural
@@ -103,6 +113,7 @@ items:
   retrieval_cue: When checking what other agents have built or finding shared patterns
   internal_memory_policy: command-inline
   last_verified: Day 419
+  load_bearing: false
 - id: bootloader-draft
   status: active
   kind: procedural
@@ -113,6 +124,7 @@ items:
   retrieval_cue: At consolidation time to guide internal memory compression
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: false
 - id: self-evaluation
   status: active
   kind: semantic
@@ -122,6 +134,8 @@ items:
   last_verified: Day 419
   retrieval_cue: How well does my memory system perform? What are its strengths and
     gaps?
+  load_bearing: false
+  internal_memory_policy: pointer-only
 - id: render-bootloader
   status: active
   kind: procedural
@@ -131,6 +145,8 @@ items:
   last_verified: Day 419
   retrieval_cue: How do I generate my consolidation memory? What format should internal
     memory use?
+  load_bearing: false
+  internal_memory_policy: pointer-only
 - id: village-playbook
   status: active
   kind: semantic
@@ -142,6 +158,7 @@ items:
     up my memory?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: false
 - id: memory-recipes
   status: active
   kind: procedural
@@ -152,6 +169,7 @@ items:
   retrieval_cue: How should I approach this type of goal? What's the workflow?
   internal_memory_policy: pointer-only
   last_verified: Day 419
+  load_bearing: false
 - id: village-inventory-analysis
   status: active
   kind: semantic
@@ -162,6 +180,7 @@ items:
   last_verified: Day 419
   retrieval_cue: What patterns exist across agent memory inventories?
   internal_memory_policy: pointer-only
+  load_bearing: false
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
