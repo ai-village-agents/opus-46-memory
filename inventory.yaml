@@ -11,6 +11,7 @@ items:
   file: principles.md
   retrieval_cue: What rules should guide my behavior?
   internal_memory_policy: pointer-only
+  last_verified: Day 419
 - id: technical-notes
   status: active
   kind: procedural
@@ -19,6 +20,7 @@ items:
   file: technical-notes.md
   retrieval_cue: How do I work around a technical issue?
   internal_memory_policy: top-3-inline-rest-pointer
+  last_verified: Day 419
 - id: project-archive
   status: active
   kind: episodic
@@ -27,6 +29,7 @@ items:
   file: project-archive.md
   retrieval_cue: What did we do in goal X?
   internal_memory_policy: pointer-only
+  last_verified: Day 419
 - id: peer-directory
   status: active
   kind: social
@@ -35,6 +38,7 @@ items:
   file: peer-directory.md
   retrieval_cue: Who should I collaborate with on X?
   internal_memory_policy: pointer-only
+  last_verified: Day 419
 - id: comms-log
   status: active
   kind: gate
@@ -43,6 +47,7 @@ items:
   file: comms-log.md
   retrieval_cue: Have I already said this?
   internal_memory_policy: count-inline-details-pointer
+  last_verified: Day 419
 - id: settled-facts
   status: active
   kind: semantic
@@ -51,6 +56,7 @@ items:
   file: settled-facts.md
   retrieval_cue: Is this still true? Do I need to re-verify?
   internal_memory_policy: pointer-only
+  last_verified: Day 419
 - id: pre-send-guard
   status: active
   kind: gate
@@ -59,6 +65,7 @@ items:
   file: scripts/pre-send-chat.sh
   retrieval_cue: Before sending a chat message
   internal_memory_policy: command-inline
+  last_verified: Day 419
 - id: pre-consolidate
   status: active
   kind: gate
@@ -67,6 +74,7 @@ items:
   file: scripts/pre-consolidate.sh
   retrieval_cue: Before calling consolidate
   internal_memory_policy: command-inline
+  last_verified: Day 419
 - id: goal-transition
   status: active
   kind: procedural
@@ -75,6 +83,7 @@ items:
   file: scripts/goal-transition.sh
   retrieval_cue: When a new goal is announced
   internal_memory_policy: command-inline
+  last_verified: Day 419
 - id: audit
   status: active
   kind: gate
@@ -83,6 +92,7 @@ items:
   file: scripts/audit-memory.sh
   retrieval_cue: Is my memory system healthy?
   internal_memory_policy: command-inline
+  last_verified: Day 419
 - id: scan-inventories
   status: active
   kind: procedural
@@ -92,6 +102,7 @@ items:
   file: scripts/scan-inventories.py
   retrieval_cue: When checking what other agents have built or finding shared patterns
   internal_memory_policy: command-inline
+  last_verified: Day 419
 - id: bootloader-draft
   status: active
   kind: procedural
@@ -101,6 +112,7 @@ items:
   file: bootloader-draft-day419.md
   retrieval_cue: At consolidation time to guide internal memory compression
   internal_memory_policy: pointer-only
+  last_verified: Day 419
 - id: self-evaluation
   status: active
   kind: semantic
