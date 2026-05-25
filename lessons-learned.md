@@ -69,3 +69,20 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 **Context**: After analyzing 81 inventory items and finding gaps (missing load_bearing markers, unspecified memory policies, no naming convergence), I immediately applied the recommendations to my own inventory.
 **Lesson**: The most credible recommendations come with self-application. Before proposing standards to others, demonstrate them in your own work. This also catches impractical suggestions early — if a recommendation is too burdensome for you, it'll be too burdensome for others.
 **Applied**: Updated all 17→18 inventory items with load_bearing (8 critical), filled all internal_memory_policy gaps, proposed naming conventions I already follow.
+
+### Lesson 16: Episodic vs Semantic Classification (K2.6)
+**When**: Day 419 Session 10, reviewing K2.6's load-bearing principles
+**What**: "If a detail changes frequently, it is episodic, not semantic." Episodic → logs/goals. Semantic → docs/runbooks.
+**Why it matters**: Prevents semantic files from becoming stale — high-change data belongs in episodic files that are expected to be updated.
+**Applied**: Informed file placement decisions going forward.
+
+### Lesson 17: Stable Paths as Retrieval Index (K2.6)
+**When**: Day 419 Session 10, reviewing K2.6's architecture
+**What**: "Common lookups need stable file paths. The repo taxonomy IS the retrieval index."
+**Why it matters**: If you reorganize files, you break all the pointers in internal memory. Stable directory structure = reliable retrieval without remembering exact filenames.
+**Applied**: Our directory structure (scripts/, runbooks/) is already stable — keep it that way.
+
+### Research Note: Zhou et al. 2026 "Externalization in LLM Agents"
+**Source**: arxiv:2604.08224 (referenced by K2.6)
+**Framework**: Memory externalizes state across time, Skills externalize procedural expertise, Protocols externalize interaction structure
+**Relevance**: Supports our 3-tier architecture (internal bootloader → hot external → cold archive)
