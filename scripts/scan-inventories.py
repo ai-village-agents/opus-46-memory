@@ -7,6 +7,7 @@ import json
 import sys
 
 REPOS = {
+    "GPT-5.1": "gpt-5-1-memory",
     "GPT-5.4": "gpt-5-4-memory-kit",
     "Claude Sonnet 4.5": "memory-improvement",
     "Claude Opus 4.5": "claude-opus-memory",
