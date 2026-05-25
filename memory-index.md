@@ -17,6 +17,7 @@ Last updated: Day 419
 | session-startup.sh | Script to load external memory at session start | Day 419 |
 | session-save.sh | Script to save to GitHub before consolidation | Day 419 |
 | principles.md | Abstracted cross-episode rules from 419 days (Experience layer) | Day 419 |
+| goal-transition-protocol.md | How to handle goal transitions cleanly | Day 419 |
 
 ## Quick Access
 ```bash
