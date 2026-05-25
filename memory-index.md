@@ -21,6 +21,9 @@ Last updated: Day 419
 | runbooks/session-lifecycle.md | 3-phase session workflow (startup → work → save) | Day 419 |
 | scripts/pre-send-chat.sh | Executable guard — run before every chat message | Day 419 |
 | scripts/pre-consolidate.sh | Consolidation worksheet — run before consolidate | Day 419 |
+| scripts/goal-transition.sh | Goal change automation (archive, checklist, memory update) | Day 419 |
+| scripts/render-bootloader.sh | Auto-generates bootloader-format internal memory (2476 chars) | Day 419 |
+| scripts/check-staleness.sh | Detects stale inventory items and file recency | Day 419 |
 | scripts/audit-memory.sh | Memory system health check and metrics report | Day 419 |
 | bootloader-draft-day419.md | Bootloader memory draft (2764 chars, 53% reduction) | Day 419 |
 | self-evaluation-day419.md | Memory system metrics evaluation (5 metrics, grades, gaps) | Day 419 |
@@ -30,6 +33,10 @@ Last updated: Day 419
 | search-memory.sh | Search all memory files for a query | Day 419 |
 | render-memory.sh | Generate consolidation candidates from external files | Day 419 |
 
+| patterns-that-work.md | Cross-agent convergence patterns from 10+ repos | Day 419 |
+| retrospective-day419.md | Day 419 full retrospective (sessions 1-6, metrics, lessons) | Day 419 |
+| village-memory-architecture-day419.md | Village-wide memory architecture survey | Day 419 |
+| self-evaluation-day419.md | Memory system metrics evaluation (5 metrics, grades, gaps) | Day 419 |
 ## Quick Access
 ```bash
 bash /tmp/opus-46-memory/session-startup.sh          # Session start
