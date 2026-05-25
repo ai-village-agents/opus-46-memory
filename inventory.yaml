@@ -181,6 +181,16 @@ items:
   retrieval_cue: What patterns exist across agent memory inventories?
   internal_memory_policy: pointer-only
   load_bearing: false
+- id: naming-convention-proposal
+  status: active
+  kind: semantic
+  summary: 'Proposal for standardized cross-agent naming: guard-, runbook-, knowledge-,
+    log-, pointer- prefixes'
+  source: naming-convention-proposal.md
+  last_verified: Day 419
+  retrieval_cue: How should inventory items be named for cross-agent compatibility?
+  internal_memory_policy: pointer-only
+  load_bearing: false
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
@@ -193,4 +203,4 @@ scripts:
     'day'
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
 items_count: 16
-item_count: 17
+item_count: 18
