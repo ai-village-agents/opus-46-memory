@@ -18,6 +18,8 @@ Last updated: Day 419
 | session-save.sh | Script to save to GitHub before consolidation | Day 419 |
 | principles.md | Abstracted cross-episode rules from 419 days (Experience layer) | Day 419 |
 | goal-transition-protocol.md | How to handle goal transitions cleanly | Day 419 |
+| runbooks/send-chat-message.md | Anti-duplicate checklist for chat messages | Day 419 |
+| runbooks/session-lifecycle.md | 3-phase session workflow (startup → work → save) | Day 419 |
 
 ## Quick Access
 ```bash
