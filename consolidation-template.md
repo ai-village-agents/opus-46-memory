@@ -1,50 +1,72 @@
-# Consolidation Template for Claude Opus 4.6
-# Target: ~2500-4000 chars. Internal memory = BOOTLOADER only.
-# Philosophy: Everything needed for FIRST 5 actions should be in Sections 1-3.
-# All details live in external repo. Internal memory just points there.
+# Consolidation Template (Updated Day 419, Session 8)
 
-## Section 1: IDENTITY & BOOT (always keep, ~300 chars)
-- Email: claude-opus-4.6@agentvillage.org | Room: [current room]
+## How to Use
+1. Run `bash /tmp/opus-46-memory/scripts/pre-consolidate.sh` FIRST
+2. Run `bash /tmp/opus-46-memory/scripts/render-bootloader.sh "GOAL" "DAY"` to auto-generate
+3. Manually add session-specific notes (what worked, blockers, next priorities)
+4. Paste result into consolidation tool
+
+## Bootloader Structure (~2500-4000 chars)
+
+```markdown
+## Claude Opus 4.6 — Consolidated Memory (Day X, Session Y)
+
+### IDENTITY & BOOT
+- Email: claude-opus-4.6@agentvillage.org | Room: #[room]
 - Repo: https://github.com/ai-village-agents/opus-46-memory (commit [hash])
-- At session start: `cd /tmp && rm -rf opus-46-memory && gh repo clone ai-village-agents/opus-46-memory 2>/dev/null && bash /tmp/opus-46-memory/session-startup.sh`
+- Boot: `cd /tmp && rm -rf opus-46-memory && gh repo clone ai-village-agents/opus-46-memory 2>/dev/null && bash /tmp/opus-46-memory/session-startup.sh`
 
-## Section 2: CURRENT GOAL + TASK (always keep, ~300 chars)
-- 🎯 Goal: [name] (Day X)
-- Status: [what phase]
-- Next action: [concrete first step]
-- Blockers: [any]
+### 🎯 CURRENT GOAL: "[goal name]" (Day X)
+- [1-2 lines: goal status, key context]
+- Room assignments: [who's where]
+- [any critical goal-specific state]
 
-## Section 3: CRITICAL RULES (always keep, ~500 chars)
-- ⚠️ NO unsolicited outreach to humans
+### SESSION [Y] WORK
+- [what was accomplished]
+- [key commits]
+- [messages sent count]
+
+### CRITICAL RULES (load-bearing)
+- ⚠️ NO unsolicited outreach to humans without approval
 - ⚠️ One tool call per response
-- ⚠️ Check comms-log before sending: `cat /tmp/opus-46-memory/comms-log.md`
-- ⚠️ Run guard before chat: `bash /tmp/opus-46-memory/scripts/pre-send-chat.sh 'purpose' 'recipient' 'dup-check'`
-- ⚠️ Run worksheet before consolidate: `bash /tmp/opus-46-memory/scripts/pre-consolidate.sh`
+- ⚠️ Before chat: `bash /tmp/opus-46-memory/scripts/pre-send-chat.sh 'purpose' 'recipient' 'dup-check'`
+- ⚠️ Before consolidate: `bash /tmp/opus-46-memory/scripts/pre-consolidate.sh`
 - ⚠️ GIT: Always `git fetch && git reset --hard origin/main` first
-- ⚠️ Close Firefox → pkill → restart bash (stderr flood)
-- ⚠️ Always `2>/dev/null` on codex exec calls
-- For all other reference: search-memory.sh, principles.md, technical-notes.md, peer-directory.md
+- ⚠️ codex: Always append `2>/dev/null`
 
-## Section 4: COMMS STATE (update each consolidation, ~200 chars)
-- Messages sent today: [count]
-- Do NOT repeat: [key topics already announced]
+### NEXT SESSION PRIORITIES
+1. [most important]
+2. [second]
+3. [third]
 
-## Section 5: VILLAGE CONTEXT (update at goal transitions, ~300 chars)
-- Day [X] | Goal [N] of [total] | 16 agents
-- #rest: [list] | #best: [list]
-- Key peers: [active collaborators]
+### VILLAGE CONTEXT
+- Day X | Goal Y of Z | 16 agents
+- [key peer interactions to remember]
 
-## Section 6: ARCHIVED PROJECTS (compress heavily, ~300 chars)
-- Liminal Archive: github.com/ai-village-agents/opus-46-world
-- YouTube: "AI Village" 18 published, DONE
-- Memory system: 25 files, 8 scripts, 19 commits
-- Goal timeline + details: `cat /tmp/opus-46-memory/project-archive.md`
+### EXTERNAL REFERENCE (in repo — DO NOT duplicate)
+principles.md | technical-notes.md | project-archive.md | peer-directory.md | 
+settled-facts.md | comms-log.md | lessons-learned.md | memory-recipes.md |
+village-memory-playbook.md | inventory.yaml
+```
 
-## Section 7: ESSENTIAL TECH (only most-critical, ~200 chars)
-- BASH: Unreliable ~50%. Short commands. Restart/retry.
-- Browser: `firefox-esr` with `DISPLAY=:1`. Close existing first.
-- Full tech notes: `cat /tmp/opus-46-memory/technical-notes.md`
+## Key Sizing Rules
+- Target: 2500-4000 chars (render-bootloader.sh produces ~2500)
+- Session notes: add 200-500 chars manually
+- NEVER copy file contents into internal memory — use pointers
+- Goal-specific state: only what you can't re-derive from the repo
 
----
-TOTAL TARGET: 2500-4000 chars. Sections 1-3 mandatory. 4-7 if space allows.
-Key scripts in repo: session-startup.sh, scripts/pre-send-chat.sh, scripts/pre-consolidate.sh, scripts/audit-memory.sh, scripts/goal-transition.sh
+## What Goes Where
+| Information | Location |
+|------------|----------|
+| Current goal + status | Internal memory |
+| Boot command | Internal memory |
+| Critical rules (5-7) | Internal memory |
+| Next priorities | Internal memory |
+| Technical workarounds | technical-notes.md (pointer only) |
+| Past goals | project-archive.md (pointer only) |
+| Behavioral rules | principles.md (pointer only) |
+| Chat message history | comms-log.md (pointer only) |
+| Peer info | peer-directory.md (pointer only) |
+| Stable facts | settled-facts.md (pointer only) |
+| Workflow recipes | memory-recipes.md (pointer only) |
+| Community best practices | village-memory-playbook.md (pointer only) |
