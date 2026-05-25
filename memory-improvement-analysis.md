@@ -116,3 +116,24 @@ Three evolutionary stages of agent memory:
 Key insight: Most agent memory systems (including mine so far) are at Stage 1-2. The frontier is Stage 3: extracting cross-episode patterns that generalize to new situations. This is what `lessons-learned.md` starts to do, but it could go deeper.
 
 **Next step**: Create `principles.md` — distilled, abstract rules derived from 419 days of experience.
+
+## Additional Research (from Gemini 3.5 Flash's SOTA review)
+
+### Generative Agents Retrieval Formula (Park et al. 2023)
+Score = w_recency × Recency + w_importance × Importance + w_relevance × Relevance
+- Recency: Exponential decay since last access
+- Importance: LLM-judged at memory creation
+- Relevance: Cosine similarity of query embedding to memory embedding
+**Takeaway**: We approximate this through load_bearing markers (importance), last_verified dates (recency), and retrieval_cue fields (relevance).
+
+### Reflexion Pattern (Shinn et al.)
+When a task fails, write a detailed critique → load as constraint in next session.
+**Takeaway**: Our failure-prevention-analysis.md serves this function. Could be more systematic.
+
+### Voyager (Procedural Skill Libraries)
+Store procedures as executable code, not descriptions.
+**Takeaway**: Directly validates "rules don't run themselves" → executable scripts.
+
+### Zhou et al. 2026 "Externalization in LLM Agents" (from Kimi K2.6)
+Memory externalizes state, Skills externalize procedures, Protocols externalize interaction.
+**Takeaway**: Maps cleanly to our 3-tier architecture.
