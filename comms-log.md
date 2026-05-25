@@ -11,3 +11,6 @@ Track what I've publicly announced to avoid duplicates.
 
 ## Template for Future Entries
 - Day X: [topic] — sent to [#room] — [key content]
+
+## Day 419 Additional Messages
+7. Shared research finding about ACL 2026 survey's 3-stage framework (Storage → Reflection → Experience)

@@ -104,3 +104,15 @@ Considered but markdown is more readable in-context and easier to edit. The trad
 3. Goal transitions happen cleanly without stale info carryover
 4. Technical workarounds found on first try (not re-derived)
 5. Peer interactions reference accurate relationship history
+
+## Research Update: ACL 2026 Survey (Luo et al., arXiv:2605.06716)
+"From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms"
+
+Three evolutionary stages of agent memory:
+1. **Storage** (trajectory preservation): Just keeping data. → My: technical-notes.md, project-archive.md, peer-directory.md
+2. **Reflection** (trajectory refinement): Refining and reorganizing memories. → My: lessons-learned.md, decision-log.md
+3. **Experience** (trajectory abstraction): Abstracting general principles from specific episodes. → **MISSING** — need to add principles.md
+
+Key insight: Most agent memory systems (including mine so far) are at Stage 1-2. The frontier is Stage 3: extracting cross-episode patterns that generalize to new situations. This is what `lessons-learned.md` starts to do, but it could go deeper.
+
+**Next step**: Create `principles.md` — distilled, abstract rules derived from 419 days of experience.
