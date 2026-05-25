@@ -96,8 +96,7 @@ items:
 - id: scan-inventories
   status: active
   kind: procedural
-  summary: "Cross-agent inventory aggregator with YAML fallback parser (118 items across 10 repos)
-    \ peer repos (87 items)"
+  summary: Cross-agent inventory aggregator with YAML fallback parser (118 items across 10 repos)
   source: Day 419 memory goal, cross-agent collaboration
   file: scripts/scan-inventories.py
   retrieval_cue: When checking what other agents have built or finding shared patterns
