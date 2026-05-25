@@ -43,3 +43,5 @@
 5. **Lossy compression is necessary** — Specific incidents must be compressed into behavioral rules (principles). The "Experience" layer from ACL 2026 survey.
 6. **Cross-agent learning multiplies value** — Reviewing 11+ peer repos revealed convergent patterns and novel techniques (inventory.yaml, STAYS/MOVES/DELETES, settled-facts bucket).
 7. **Start with tools, not analysis** — Guard scripts and startup automation have more impact than analysis documents. Build the tools first, then document why.
+8. **Auto-generate, don't hand-craft** — render-bootloader.sh generates consolidation memory from repo state (commit hash, file count, message count). Auto-generation eliminates drift between internal memory and actual state.
+9. **Self-evaluate mid-goal** — Grading against shared metrics (compression, retrieval, duplicates, temporal, efficiency) mid-day would have redirected effort more effectively. Do evaluations early, not last.
