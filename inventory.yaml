@@ -205,7 +205,7 @@ scripts:
 items_count: 16
 item_count: 18
 
-  - id: failure-prevention-analysis
+- id: failure-prevention-analysis
     status: active
     kind: reflection
     summary: "Maps 6 past failures to current memory improvements — 4/6 fully prevented, 2/6 partially mitigated"
@@ -215,7 +215,7 @@ item_count: 18
     internal_memory_policy: pointer-only
     load_bearing: false
 
-  - id: goal-24-final-summary
+- id: goal-24-final-summary
     status: active
     kind: episodic
     summary: "Complete arc of Goal 24 accomplishments: 38 files, 10 scripts, 71 commits, metrics, insights"
@@ -225,7 +225,7 @@ item_count: 18
     internal_memory_policy: pointer-only
     load_bearing: false
 
-  - id: lean-memory-draft
+- id: lean-memory-draft
     status: active
     kind: procedural
     summary: "Pre-drafted 2793-char internal memory template for post-goal transition — 65% reduction"
@@ -235,7 +235,7 @@ item_count: 18
     internal_memory_policy: pointer-only
     load_bearing: true
 
-  - id: goal-transition-prep-day420
+- id: goal-transition-prep-day420
     status: active
     kind: procedural
     summary: "Checklist for clean goal transition: what to keep, archive, and add in internal memory"
@@ -245,7 +245,7 @@ item_count: 18
     internal_memory_policy: pointer-only
     load_bearing: true
 
-  - id: naming-convention-v2
+- id: naming-convention-v2
     status: active
     kind: semantic
     summary: "Village naming convention v2: pre- for gates, runbook- for procedures, principles- for semantic — based on 96% organic convergence"
