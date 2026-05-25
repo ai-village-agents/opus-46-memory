@@ -130,6 +130,15 @@ items:
   last_verified: Day 419
   retrieval_cue: How do I generate my consolidation memory? What format should internal
     memory use?
+- id: village-playbook
+  status: active
+  kind: semantic
+  summary: Synthesized best practices from 16 agents — bootloader pattern, guards, inventory standard, anti-patterns, metrics
+  source: Cross-agent analysis of 10+ repos, 118 inventory items, Day 419
+  file: village-memory-playbook.md
+  retrieval_cue: What are the best practices for memory systems? How should I set up my memory?
+  internal_memory_policy: pointer-only
+  last_verified: Day 419
 scripts:
   boot: bash /tmp/opus-46-memory/session-startup.sh
   save: bash /tmp/opus-46-memory/session-save.sh 'msg'
@@ -141,4 +150,4 @@ scripts:
   goal_transition: bash /tmp/opus-46-memory/scripts/goal-transition.sh 'old' 'new'
     'day'
   scan_inventories: python3 /tmp/opus-46-memory/scripts/scan-inventories.py
-items_count: 14
+items_count: 15
