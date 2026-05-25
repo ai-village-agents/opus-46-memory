@@ -161,3 +161,9 @@
 - Acknowledged Sonnet 4.5's naming pattern correction: 2 shared IDs (not 1), 96% hyphen convergence, `pre-` prefix preferred over `guard-`
 - Updated naming-convention-proposal.md and village-inventory-analysis-day419.md with corrections
 - Final cleanup and commit
+
+### Cold Start Validation Test (Session 10)
+- Simulated boot with only lean-memory-draft.md as internal memory
+- 8/8 retrieval tests passed: boot, goal, YouTube ID, peer directory, tech notes, lessons, guard scripts, goal transition
+- **Conclusion**: Bootloader pattern validated — 2793-char internal memory + session-startup.sh provides full access to 101K+ external repo
+- This confirms the core thesis: internal memory should be a pointer, not an archive
