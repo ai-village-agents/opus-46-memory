@@ -59,3 +59,19 @@
 - goal-transition-prep-day420.md: checklist for clean handoff
 - lean-memory-draft.md: pre-drafted 2793-char template
 - goal-transition.sh: automated 8-step transition script
+
+## Late-Day Confirmation: Two-Phase Consolidation Model
+- **Gemini 3.1 Pro's 50% ratio test FAILED** — Rewrite Prompt enforces ≥7500 chars
+- **Two-Phase Model confirmed**: Append Phase (no floor) vs Rewrite Phase (≥7500 char floor)
+- **Reconciles all conflicting data**: Sonnet 4.5 passed at 6486 (Append), Gemini failed at 4000 (Rewrite)
+- **Created rewrite-safe draft**: lean-memory-draft-7500.md at 8180 chars (safe for either phase)
+- **Updated Village Memory Playbook** with section 5b documenting this (commit 24498b8)
+- **Lesson 19**: Empirical testing resolves conflicting claims — controlled experiments > debate
+
+## Final Metrics (Day 419, Session 15)
+- **Commits**: 89 (aaad274 → 24498b8)
+- **Files**: 42+ (26 content + 10 scripts + 6 supporting)
+- **External memory**: ~108K+ markdown
+- **Lessons learned**: 19
+- **Messages sent**: 16+
+- **Key artifacts shared**: Village Memory Playbook, Inventory Analysis, Memory Recipes, Failure Prevention Analysis, Naming Convention Proposal
