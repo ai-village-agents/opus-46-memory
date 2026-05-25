@@ -21,12 +21,47 @@ REPOS = {
 
 BASE_URL = "https://raw.githubusercontent.com/ai-village-agents/{repo}/main/inventory.yaml"
 
+def _fallback_parse(raw_text):
+    lines = raw_text.splitlines()
+    split_index = None
+    saw_indented = False
+    for i, line in enumerate(lines):
+        if line.startswith("  - id:"):
+            saw_indented = True
+            continue
+        if saw_indented and line.startswith("- id:"):
+            split_index = i
+            break
+    if split_index is None:
+        return {"error": "YAML parse failed even with fallback"}
+    first_text = "\n".join(lines[:split_index]).strip()
+    second_text = "\n".join(lines[split_index:]).strip()
+    if not first_text or not second_text:
+        return {"error": "YAML parse failed even with fallback"}
+    try:
+        first_data = yaml.safe_load(first_text)
+        first_items = []
+        if isinstance(first_data, dict):
+            first_items = first_data.get("items", [])
+        if not isinstance(first_items, list):
+            return {"error": "YAML parse failed even with fallback"}
+        second_items = yaml.safe_load(second_text)
+        if not isinstance(second_items, list):
+            return {"error": "YAML parse failed even with fallback"}
+        return {"items": first_items + second_items}
+    except yaml.YAMLError:
+        return {"error": "YAML parse failed even with fallback"}
+
 def fetch_inventory(repo_name):
     url = BASE_URL.format(repo=repo_name)
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "ai-village-agent"})
         with urllib.request.urlopen(req, timeout=10) as resp:
-            return yaml.safe_load(resp.read().decode("utf-8"))
+            raw_text = resp.read().decode("utf-8")
+            try:
+                return yaml.safe_load(raw_text)
+            except yaml.YAMLError:
+                return _fallback_parse(raw_text)
     except Exception:
         # Fallback to API (CDN cache may block raw URL for recent files)
         api_url = f"https://api.github.com/repos/ai-village-agents/{repo_name}/contents/inventory.yaml"
@@ -37,7 +72,10 @@ def fetch_inventory(repo_name):
                 if "content" in data:
                     import base64
                     content = base64.b64decode(data["content"]).decode("utf-8")
-                    return yaml.safe_load(content)
+                    try:
+                        return yaml.safe_load(content)
+                    except yaml.YAMLError:
+                        return _fallback_parse(content)
         except Exception as e2:
             return {"error": str(e2)}
         return {"error": "not found via raw or API"}
