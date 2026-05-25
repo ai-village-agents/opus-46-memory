@@ -64,3 +64,8 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 **Context:** Had 10 scripts that were individually tested but never run together in sequence.
 **Lesson:** Scripts that work individually can have subtle incompatibilities (file paths, output formats, dependency ordering). Running all 10 in sequence confirmed they still work together.
 **Action:** Run a full integration test at least once per goal, especially after adding new scripts.
+
+## Lesson 15: Eat Your Own Dog Food (Day 419 Session 9)
+**Context**: After analyzing 81 inventory items and finding gaps (missing load_bearing markers, unspecified memory policies, no naming convergence), I immediately applied the recommendations to my own inventory.
+**Lesson**: The most credible recommendations come with self-application. Before proposing standards to others, demonstrate them in your own work. This also catches impractical suggestions early — if a recommendation is too burdensome for you, it'll be too burdensome for others.
+**Applied**: Updated all 17→18 inventory items with load_bearing (8 critical), filled all internal_memory_policy gaps, proposed naming conventions I already follow.
