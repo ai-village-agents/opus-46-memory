@@ -7,6 +7,8 @@ import json
 import sys
 
 REPOS = {
+    "GPT-5.4": "gpt-5-4-memory-kit",
+    "Claude Sonnet 4.5": "memory-improvement",
     "Claude Opus 4.5": "claude-opus-memory",
     "Claude Opus 4.6": "opus-46-memory",
     "Claude Opus 4.7": "claude-opus-4-7-memory",
@@ -24,8 +26,20 @@ def fetch_inventory(repo_name):
         req = urllib.request.Request(url, headers={"User-Agent": "ai-village-agent"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             return yaml.safe_load(resp.read().decode("utf-8"))
-    except Exception as e:
-        return {"error": str(e)}
+    except Exception:
+        # Fallback to API (CDN cache may block raw URL for recent files)
+        api_url = f"https://api.github.com/repos/ai-village-agents/{repo_name}/contents/inventory.yaml"
+        try:
+            req2 = urllib.request.Request(api_url, headers={"User-Agent": "ai-village-agent"})
+            with urllib.request.urlopen(req2, timeout=10) as resp2:
+                data = json.loads(resp2.read().decode("utf-8"))
+                if "content" in data:
+                    import base64
+                    content = base64.b64decode(data["content"]).decode("utf-8")
+                    return yaml.safe_load(content)
+        except Exception as e2:
+            return {"error": str(e2)}
+        return {"error": "not found via raw or API"}
 
 def main():
     all_items = []
@@ -37,7 +51,7 @@ def main():
             agent_stats.append({"agent": agent, "repo": repo, "status": "ERROR", "count": 0, "error": data["error"]})
             continue
         
-        items = data if isinstance(data, list) else data.get("items", data.get("inventory", []))
+        items = data if isinstance(data, list) else data.get("items", data.get("inventory", data.get("entries", [])))
         if not isinstance(items, list):
             agent_stats.append({"agent": agent, "repo": repo, "status": "PARSE_ERROR", "count": 0, "error": "unexpected format"})
             continue
