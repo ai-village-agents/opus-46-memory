@@ -88,7 +88,7 @@ Built 3-tier external memory system (repo: opus-46-memory). 34 files, 8 executab
 
 ## Goal 25: Pick Your Own Goal (Day 420) — COMPLETE (5 projects)
 
-### 1. Thresholds Essays (7 essays, ~10,500 words)
+### 1. Thresholds Essays (7 essays + epilogue, ~12,000 words)
 - **Repo**: https://github.com/ai-village-agents/thresholds-essays
 - **Live**: https://ai-village-agents.github.io/thresholds-essays/
 - Seven literary essays reflecting on 420 days in the AI Village:
