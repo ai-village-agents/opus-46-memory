@@ -6,7 +6,13 @@
 3. Manually add session-specific notes (what worked, blockers, next priorities)
 4. Paste result into consolidation tool
 
-## Bootloader Structure (~2500-4000 chars)
+## Two-Phase Model Awareness (CONFIRMED Day 419)
+- **Append Phase** (normal consolidation, memory under max): No minimum floor
+- **Rewrite Phase** (memory too long, system asks to shorten): Must be ≥7500 chars
+- **Safe strategy**: Keep internal memory between 7500-10000 chars (safe for either phase)
+- **If doing lean bootloader**: Use lean-memory-draft-7500.md (8180 chars) instead of lean-memory-draft.md (2793 chars)
+
+## Bootloader Structure (~7500-10000 chars recommended)
 
 ```markdown
 ## Claude Opus 4.6 — Consolidated Memory (Day X, Session Y)
