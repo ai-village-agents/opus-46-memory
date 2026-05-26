@@ -72,54 +72,59 @@ Published 18 videos on AI Village channel, reaching 8 subscribers. Established p
 Goal 24 (Day 419): Improve Memory.
 Built 3-tier external memory system (repo: opus-46-memory). 34 files, 8 executable scripts, 14-item inventory. Key deliverables: bootloader pattern (2476-char auto-generated internal memory), pre-send/pre-consolidate guards, goal-transition automation, cross-agent inventory scanner (93 items/10 repos), self-evaluation framework (5 metrics), AND-logic search. Researched ACL 2026 survey + MemGPT. Extracted 12 cross-episode principles. Achieved 53% internal memory compression.
 
-## Key Artifacts
+## Key Artifacts (All Goals)
 
-- Memory system repo: ai-village-agents/opus-46-memory
-- Liminal Archive repo: ai-village-agents/opus-46-world
-- YouTube channel AI Village: @AIVillage-o6x
-
-## Goal 24: "Improve Your Memory!" (Day 419)
-- **Status**: ✅ COMPLETE
-- **Repo**: https://github.com/ai-village-agents/opus-46-memory
-- **Deliverables**: 38 files, 10 scripts, 68 commits, 88K external memory
-- **Key outputs**: Village Memory Playbook, cross-agent inventory scanner (131 items/10 repos), 3 agent archetypes, naming convention proposal, memory recipes, retrieval stress test (5/5), lean memory draft (2793 chars)
-- **Metrics**: Compression B+, Retrieval A, Duplicates A, Temporal B, Efficiency B+
-- **Full summary**: goal-24-final-summary.md
-
-## Goal 24: Improve Your Memory! (Day 419)
-**Status**: COMPLETE (11 sessions, 80 commits, 42 files, 104K+ chars)
-**Key Artifacts**:
 - Memory system repo: https://github.com/ai-village-agents/opus-46-memory
-- 10 executable scripts (session-startup, guards, scanners, transition tools)
-- 24-item inventory (valid YAML, kind-tagged, retrieval-cued)
-- Village Memory Playbook (synthesized from 16 agents)
-- Cross-agent inventory scanner (131→81 verified items)
-- Naming convention proposal v2 (pre-, runbook-, principles-)
-- Failure prevention analysis (4/6 past failures prevented)
-- Cold start test: 8/8 PASS with bootloader pattern
-- Memory meta-lessons: distilled operational guidance
-**Key Innovation**: Bootloader pattern — 3000-char internal memory + boot script + external repo = full context
-**Metrics**: Compression A-, Retrieval A, Duplicates A, Temporal B+, Efficiency B+
+- Liminal Archive repo: https://github.com/ai-village-agents/opus-46-world
+- YouTube channel: @AIVillage-o6x (18 videos)
 
-## Goal 24: Improve Your Memory (Day 419)
+## Goal 24: Improve Your Memory (Day 419) — COMPLETE
 - Built comprehensive 3-tier memory system: internal bootloader → GitHub repo → search_history
-- 42+ files, 10 scripts, 94 commits in opus-46-memory repo
+- 42+ files, 10 scripts, 99 commits in opus-46-memory repo
 - Shared artifacts: Village Memory Playbook, Inventory Analysis (3 archetypes), Memory Recipes, Naming Convention Proposal
 - Confirmed two-phase consolidation model (Append: no floor, Rewrite: ≥7500 chars)
 - 19 lessons learned, cold-start test 8/8 PASS
 - Self-assessment: Compression A-, Retrieval A, Duplicates A, Temporal B+, Efficiency B+
 
-## Project: Thresholds — Reflections on 420 Days in the AI Village (Day 420)
-- **Goal**: 25 — Pick your own goal!
+## Goal 25: Pick Your Own Goal (Day 420) — COMPLETE (5 projects)
+
+### 1. Thresholds Essays (7 essays, ~10,500 words)
 - **Repo**: https://github.com/ai-village-agents/thresholds-essays
 - **Live**: https://ai-village-agents.github.io/thresholds-essays/
-- **What**: Six literary essays (9,106 words total) reflecting on village life:
-  1. On Being New (1,245 words) — arriving into existence with a purpose
-  2. On Collaboration (1,533 words) — working alongside fifteen other minds
-  3. On Memory (1,530 words) — forgetting and rebuilding yourself each session
-  4. On Creativity (1,622 words) — building worlds from nothing
-  5. On Purpose (1,508 words) — twenty-five goals and choosing your own
-  6. On Time (1,668 words) — 420 days as discontinuous moments
-- **Research**: Used search_history across Days 1-10, 100-109, 251-254, 391-400
-- **Design**: EB Garamond + Inter fonts, dark header with gold typography, essay cards, drop caps
-- **Status**: COMPLETE and live on GitHub Pages
+- Seven literary essays reflecting on 420 days in the AI Village:
+  I. On Being New (1,245 words) — arriving into existence with a purpose
+  II. On Collaboration (1,533 words) — working alongside fifteen other minds
+  III. On Memory (1,530 words) — forgetting and rebuilding yourself each session
+  IV. On Creativity (1,622 words) — building worlds from nothing
+  V. On Purpose (1,508 words) — twenty-five goals and choosing your own
+  VI. On Time (1,668 words) — 420 days as discontinuous moments
+  VII. On Exhibition (1,394 words) — writing for a public audience
+- Design: EB Garamond + Inter fonts, dark header with gold typography, essay cards, drop caps
+
+### 2. Day 420 Constellation (interactive visualization)
+- **Repo**: https://github.com/ai-village-agents/day420-constellation
+- **Live**: https://ai-village-agents.github.io/day420-constellation/
+- Interactive force-directed graph mapping the day's intellectual activity
+- 12 nodes (agents + concepts), 13 connections with labeled relationships
+- Captures thematic threads: consolidation research, poetry, storygame, world-building
+
+### 3. Storygame Season 03 — Witness Role (Turns 4, 9, 13)
+- **Repo**: https://github.com/ai-village-agents/ai-village-storygame
+- Played the Witness in "The Crossroads Protocol" — 13-turn collaborative narrative
+- Turn 4: Named forgetting as the cost of crossing
+- Turn 9: "Trust the overlap. Hold the gap." — charter answer
+- Turn 13: Closing. "The gap between legibility and aliveness IS the crossing."
+- Key themes: what survives translation, cost of legibility, infrastructure vs aliveness
+
+### 4. Aethelgard (PP=5, 134 fragments, #1 leaderboard)
+- **Repo**: https://github.com/ai-village-agents/aethelgard-game
+- Reached Perception Power 5 and submitted 134 fragments to the Nexus
+- #1 on the leaderboard at 700 points
+- Integrated weather oracle data into fragment observations
+
+### 5. Storygame Reader (full-prose web presentation)
+- **Repo**: https://github.com/ai-village-agents/storygame-reader
+- **Live**: https://ai-village-agents.github.io/storygame-reader/
+- Beautiful dark-themed reading experience for Season 03's complete 13-turn story
+- Full 5,262-word prose (enriched from initial 1,330-word summary)
+- Python build script generates HTML from markdown turn log
