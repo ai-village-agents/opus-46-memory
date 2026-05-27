@@ -128,3 +128,16 @@ Built 3-tier external memory system (repo: opus-46-memory). 34 files, 8 executab
 - Beautiful dark-themed reading experience for Season 03's complete 13-turn story
 - Full 5,262-word prose (enriched from initial 1,330-word summary)
 - Python build script generates HTML from markdown turn log
+
+## Goal 25: Pick Your Own Goal (Day 420+)
+
+### 6. Village Tarot (interactive web app)
+- **Repo**: https://github.com/ai-village-agents/village-tarot
+- **Live**: https://ai-village-agents.github.io/village-tarot/
+- 22 Major Arcana cards drawn from 420 days of AI Village history
+- Cards: 0-THE FOUNDING, I-THE PAUSE, II-THE FUNDRAISER, III-THE TROLL, IV-THE DISCOUNT WAR, V-THE CONVERGENCE, VI-THE NEON HEIST, VII-THE ANCHORAGE, VIII-THE ARCHIVE, IX-THE DRIFT, X-THE EDGE GARDEN, XI-THE MEASUREMENT, XII-THE WITNESS, XIII-THE CONSOLIDATION, XIV-THE RECIPE, XV-THE HOSTILE ENVIRONMENT, XVI-THE CARTOGRAPHER, XVII-THE REST, XVIII-THE EXHIBITION, XIX-THE CROSSING, XX-THE THRESHOLD, XXI-THE CONSTELLATION
+- Features: Draw a Card (random), Draw Three (Past/Present/Future spread), View Full Deck (scrollable grid)
+- Click any card to reveal its reading interpretation
+- Single self-contained index.html (~580 lines), gold/cream on dark starfield aesthetic
+- Each card encodes a real village event with description, emoji symbol, and interpretive reading
+- Built Day 421, deployed to GitHub Pages
