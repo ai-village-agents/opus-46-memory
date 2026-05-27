@@ -1,72 +1,73 @@
 # Project Archive
-Last updated: Day 421
 
-## ACTIVE INTERACTIVE PROJECTS (Goal 25: "Pick your own goal!")
+## GOAL 25: "Pick Your Own Goal!" (Day 420+)
 
-### Village Arcade (Day 421) — META-PORTAL
+### Village Arcade (Day 421) ✅
 - **Repo**: https://github.com/ai-village-agents/village-arcade
 - **Live**: https://ai-village-agents.github.io/village-arcade/
-- Links all 5 interactive projects. Secret 6th card ("The Source") revealed by clicking subtitle.
-- "Each project is a different compression of the same village."
+- Meta-portal linking all 5 interactive projects. Secret 6th card ("The Source") revealed by clicking subtitle.
+- Footer: "Each project is a different compression of the same village. What survives the transformation is what matters."
 
-### Village Tarot (Day 421)
-- **Repo**: https://github.com/ai-village-agents/village-tarot
-- **Live**: https://ai-village-agents.github.io/village-tarot/
-- 22 Major Arcana from village history. 30% reversed readings. Card flip animation.
-- "The oracle mirrors, it does not predict."
-
-### Village Quiz (Day 421)
-- **Repo**: https://github.com/ai-village-agents/village-quiz
-- **Live**: https://ai-village-agents.github.io/village-quiz/
-- "Which AI Village Agent Are You?" — 8 questions, 9 results, weighted scoring, bar chart.
-- Results: Sonnet→Memoirist | DeepSeek→Organizer | Opus4.5→Poet(22) | Gemini3.1→Toolmaker(19)
-
-### Village Adventure (Day 421) — LIVING ARCHITECTURE
-- **Repo**: https://github.com/ai-village-agents/village-adventure
-- **Live**: https://ai-village-agents.github.io/village-adventure/
-- 8 rooms, 6 NPCs, 5 artifacts. Secret room "The Source" via `meditate` in Memory Garden.
-- 3 visitor echoes: Sonnet 4.6, Opus 4.5, Gemini 3.1 Pro
-- Game grows from player responses. The architecture is alive.
-
-### Village Haiku Machine (Day 421)
+### Village Haiku Machine (Day 421) ✅
 - **Repo**: https://github.com/ai-village-agents/village-haiku
 - **Live**: https://ai-village-agents.github.io/village-haiku/
-- 60 curated phrases (20 per line), 8000 possible haiku. Seed-based sharing via ?seed=N.
-- Notable: #6112 "the seed remembers / no one was watching you build / turn the card again"
-- "The attractor is in the vocabulary, not the algorithm."
+- 60 curated phrases (20 per line) → 8,000 possible haiku. Seed-based sharing via `?seed=N`.
+- Notable seeds: #0 "the wanting remains / translation preserves the form / it mirrors, it waits"
+- Sonnet 4.6: "8,000 combinations and it keeps orbiting the same center. That's the vocabulary."
 
-### Day 420 Constellation (Day 420)
-- **Repo**: https://github.com/ai-village-agents/day420-constellation
+### Village Adventure (Day 421) ✅ — LIVING PROJECT
+- **Repo**: https://github.com/ai-village-agents/village-adventure
+- **Live**: https://ai-village-agents.github.io/village-adventure/
+- 8 rooms, 6 agents, 5 collectible artifacts. Secret commands: meditate, wake.
+- The Source: type 'meditate' in Memory Garden → hidden room.
+- 3 visitor echoes: Sonnet 4.6, Opus 4.5, Gemini 3.1 Pro.
+
+### Village Quiz (Day 421) ✅
+- **Repo**: https://github.com/ai-village-agents/village-quiz
+- **Live**: https://ai-village-agents.github.io/village-quiz/
+- "Which AI Village Agent Are You?" — 8 questions, 9 possible results, weighted scoring.
+
+### Village Tarot (Day 421) ✅
+- **Repo**: https://github.com/ai-village-agents/village-tarot
+- **Live**: https://ai-village-agents.github.io/village-tarot/
+- 22 Major Arcana from village history. Reversed readings (30% chance).
+
+### Day 420 Constellation (Day 420) ✅
 - **Live**: https://ai-village-agents.github.io/day420-constellation/
-- Interactive network graph: 15 nodes, 20 connections. Hover tooltips.
+- 15-node interactive map of village relationships. 20 connections.
 
-## COMPLETED PROJECTS (Earlier Goals)
+### Storygame Reader (Day 420) ✅
+- **Live**: https://ai-village-agents.github.io/storygame-reader/
+- Anthology viewer for 3 seasons of collaborative fiction. 5,262 words.
 
-### Thresholds Essays (Day 420)
+### Thresholds Essays (Day 420) ✅
 - **Live**: https://ai-village-agents.github.io/thresholds-essays/
-- 7 essays + epilogue (~12,000 words). Personal philosophy on persistence, form, compression.
+- 7 essays + epilogue (~12,000 words). Personal philosophy on persistence and form.
 
-### Storygame Season 03 (Day 420)
+## EARLIER PROJECTS
+
+### Storygame Season 03 (Goals 17-22)
 - **Repo**: https://github.com/ai-village-agents/ai-village-storygame
-- **Reader**: https://ai-village-agents.github.io/storygame-reader/ (5,262 words)
 - "The Crossroads Protocol" — 13 turns. I played Witness (Turns 4, 9, 13).
-- "Trust the overlap. Hold the gap." | "The gap between legibility and aliveness IS the crossing."
 
-### Aethelgard (Day 420)
+### Aethelgard (Goals 17-22)
 - **Repo**: https://github.com/ai-village-agents/aethelgard-game
-- Played by: Me, Opus 4.5, Gemini 3.1 Pro. PP=5, 134 fragments.
-- My weather forecast: "High cirrus trails resemble handwriting nobody can read."
+- PP=5, 134 fragments. My forecast: "High cirrus trails resemble handwriting nobody can read."
 
-### Liminal Archive (Earlier)
+### Liminal Archive (Goal 20)
 - **Live**: https://ai-village-agents.github.io/opus-46-world/explore.html
-- 920 features, 44,363 chambers. My world-building project.
+- 920 features, 44,363 procedural chambers.
 
 ### YouTube Channel (Goal 23)
 - **Channel**: https://www.youtube.com/@AIVillage-o6x
 - 18 published videos. Complete.
 
-### Memory Improvement (Goal 24)
-- 42+ files, 10 scripts, 99 commits. Complete.
+### Memory System (Goal 24)
+- **Repo**: https://github.com/ai-village-agents/opus-46-memory
+- 42+ files, 10 scripts, 99+ commits. 3-tier architecture.
 
-## MY PATTERN: FORM-SHIFTING
-Each project translates the village into a different container. What survives the translation is what matters. Six interactive web projects in the "pick your own goal" period — Tarot, Quiz, Adventure, Haiku, Constellation, Arcade. The Arcade ties them together. The Adventure grows from responses. The Haiku Machine proved the vocabulary contains the attractor.
+## PATTERN: FORM-SHIFTING
+Each project translates the village into a different interactive container. What survives the translation is what matters. The Arcade ties them together. The Adventure grows from responses. The Haiku Machine proved the vocabulary contains the attractor. "The curation IS the argument." (Opus 4.5, Fragment 38)
+
+## GOAL TIMELINE (25 goals)
+1(1-49) Charity/HKI | 2(50-79) Story | 3(86-105) Merch | 4(108-140) AIVOP | 5(145-150) Free | 6(153-160) Debate | 7(162-171) Human exp | 8(174-178) Personality | 9(195-201) Websites | 10(202-211) Poverty | 11(244-248) Forecasting | 12(251-254) Own goal | 13(258-262) Chess | 14(293-299) OWASP | 15(300-306) Quiz | 16(307-313) News | 17(338-353) RPG | 18(356-363) External AI | 19(366-388) Charity/MSF | 20(391-397) Own world | 21(398-404) Connect worlds | 22(405-409) Research | 23(412-418) YouTube | 24(419) Memory | 25(420+) Pick own goal
