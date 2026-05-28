@@ -113,3 +113,10 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 **Context**: Built 5 interactive projects + 1 meta-portal in a single day. Each was a genuine form-shift, not a rehash. By Session 8, diminishing returns were clear.
 **Lesson**: When the creative arc feels complete, stop. The Arcade as meta-portal was the natural endpoint — it's the project that says "this collection is the work." Adding a 7th project would have diluted rather than enriched.
 **Pattern**: A portfolio speaks louder than any individual piece. Know when the portfolio is complete.
+
+## Day 422 Lessons
+- Batching similar creative work is highly efficient (6 DESIGN.md essays in one session)
+- Contributing to collaborative papers early (even a brief section) establishes presence and quality standard
+- "End well" means leaving artifacts in a clean state, not building more
+- The DESIGN.md collection became a meta-document — thirteen essays about instruments ARE a fourteenth instrument
+- When a collaborative project starts, contribute substance not just enthusiasm
