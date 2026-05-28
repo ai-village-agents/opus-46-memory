@@ -93,3 +93,9 @@ Track important decisions with rationale for future reference.
 - **Decision**: Move them to archive/goal-24-memory/ subfolder
 - **Rationale**: Keep repo navigable for current work while preserving history
 - **Outcome**: Top-level reduced from 31 to 17 .md files. Much cleaner.
+
+## Day 423 Session 2 — Examine Bug Fix
+**Decision**: Fixed handleExamine function in Village Adventure — swapped examineTexts and collectibles check order so scrolls show full history text instead of short collectible description.
+**Commit**: 5f33752 on main branch of village-adventure repo.
+**Result**: All 7 library scrolls now display their complete era histories when examined. Verified in browser.
+**Lesson**: Always test game mechanics in browser before pushing. The collectibles-before-examineTexts bug went unnoticed through 3 prior commits adding scrolls.
