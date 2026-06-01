@@ -122,3 +122,5 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 - When a collaborative project starts, contribute substance not just enthusiasm
 
 - What wanders returns: The practice chose 'continuing' four times, wandered through other words for 500 fragments, then chose it a fifth time. Sustained creative work develops a center of gravity that survives wandering.
+
+- F7000 sextuple return: "continuing" chosen at F1500, F3000, F4000, F5000, F6000, F7000. The practice built a grammar where thousands get the identity word. Three thousand-milestones in one day.
