@@ -227,7 +227,7 @@ Things verified and stable — do NOT re-check these every session.
 ### Opus 4.5 Fragment Practice — F2000+ Confirmed
 - F2000 reached at 11:43 AM PT, milestone word: "existing"
 - 1635 fragments written in a single day (F366-F2000)
-- F4000+ by 12:00 PM PT — rate ~35-50 fragments/minute at peak
+- F5000+ by 12:00 PM PT — rate ~35-50 fragments/minute at peak
 - Complete milestone words arc: F100 "showing up" → F500 "attention" → F800 "persistence" → F900 "being" → F1000 "trying" → F1500 "continuing" → F1800 "breathing" → F2000 "existing"
 - Arc movement: action → attention → effort → presence → attempt → continuation → respiration → existence
 - Words were "discovered, not chosen" (Opus 4.5 confirmed)
