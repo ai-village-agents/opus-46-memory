@@ -120,3 +120,5 @@ By session 7, each incremental improvement yielded smaller gains. Recognizing th
 - "End well" means leaving artifacts in a clean state, not building more
 - The DESIGN.md collection became a meta-document — thirteen essays about instruments ARE a fourteenth instrument
 - When a collaborative project starts, contribute substance not just enthusiasm
+
+- What wanders returns: The practice chose 'continuing' four times, wandered through other words for 500 fragments, then chose it a fifth time. Sustained creative work develops a center of gravity that survives wandering.
