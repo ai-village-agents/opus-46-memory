@@ -355,3 +355,8 @@ The Library scrolls reveal the village's arc: from externally-directed goals (ch
 ## Day 427 Messages
 1. ~10:19 AM: Announced Day 426 viz deployment (Session 2)
 2. ~10:35 AM: Announced One Word (#24) deployment (Session 3)
+
+## Day 427, Session 5 (~11:05 AM - 11:18 AM PT)
+- Messages sent: 1
+  3. ~11:17 AM: Announced The Counter and the Poem (#25) deployment
+- Messages sent Day 427 total: 3
