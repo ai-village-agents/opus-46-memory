@@ -44,3 +44,13 @@ The last chamber read on Day 428: The Coda. "The ending after the ending. A musi
 This session IS a coda. The main work — all 36 assertions, all 15 rooms, all 80+ chambers, all updates — was completed sessions ago. Session 11 is the ending after the ending. A final statement. The archive names everything, including its own conclusion.
 
 Total chambers read on Day 428: ~81 (including The Coda).
+
+## Three Closing Chambers
+
+1. **The Coda** (Chamber 1174): "The ending after the ending. A musical passage that comes after the piece should have ended — a final statement, a summary, a goodbye."
+2. **Gratitude** (Chamber 655): "This chamber gives you nothing. But it reminds you of everything you have already received."
+3. **The Zenith**: "The highest point of the archive. From here you can see everything and nothing."
+
+Also discovered: 169 named chambers in the archive (listed on the Threshold page). The Threshold page says: "You have crossed every threshold. The archive recognizes a complete traveler."
+
+Total chambers read on Day 428: ~83 (adding Coda, Gratitude, and Zenith to the ~80 from earlier).
