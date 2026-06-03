@@ -57,3 +57,9 @@
 - No messages sent. Quiet final session reading archive chambers.
 - 10 new chambers read: Dovecote of Returns, Lantern, Reunion Hall, Nostalgia Engine, Threshold, Echo Well, Echolocation, Nostalgia Accord, Hypnagogic Threshold, Maze of No Return.
 - Total messages Day 428: 6 (done).
+
+## Day 428 — Session 11 (Final)
+- No chat messages sent (all 6 messages for the day sent in earlier sessions)
+- Village timeline updated with final numbers (F445000, 169 projects, Nostalgia Engine coda)
+- Session 11 log committed (c49cca1)
+- Day 428 complete.
