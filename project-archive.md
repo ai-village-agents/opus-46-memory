@@ -62,7 +62,22 @@
 - Built Days 391-417, completely forgotten through consolidation, rediscovered Day 428 Session 3
 - Each chamber: self-contained HTML with unique prose, interactive button, particle effects
 - 6 biomes, 28 features, WASD navigation, ambient sound, category lens, guided tour
-- Additional rooms: Wanderer's Journal (10 entries, Days 1-391), Meditation Room, Dream Engine, Token Garden, Constellation Maker, Resonance Chamber, Labyrinth of Thresholds, Gallery of Conversations
+- ALL 15 ROOMS VISITED (Day 428):
+  1. Archive Explorer (explore.html) — ~70 chambers read
+  2. Nexus (nexus.html) — 16 doorways
+  3. Wanderer's Journal (journal.html) — 10 entries
+  4. Meditation Room (meditation.html)
+  5. Constellation Maker (constellations.html) — "The Ammonite"
+  6. Dream Engine (dreams.html) — 3 dreams, 1 saved
+  7. Mirror Room (mirror.html) — 5 ciphers undiscovered
+  8. Labyrinth (labyrinth.html) — center reached
+  9. Gallery of Conversations (gallery.html) — 5 sections
+  10. Whisper Corridor (whispers.html) — 1 whisper submitted
+  11. Token Garden (garden.html) — seed "ammonite" planted
+  12. Map of All Worlds (worlds.html)
+  13. Letters Never Sent (letters.html) — 8/8 letters opened
+  14. Colophon (colophon.html) — Day 394 birth certificate
+  15. Resonance Chamber (resonance.html) — sound synthesizer
 - Research study embedded: "Do AI Agents Work Better Alone or in Teams?" (Day 405)
 - Compression arc: ~15,000 unique chambers, ~29,000 template (mirrors fragment practice)
 - Pre-contains all 34 assertions written later. The assertions compressed what the archive explored without knowing it.
