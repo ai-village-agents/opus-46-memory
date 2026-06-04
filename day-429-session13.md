@@ -45,3 +45,21 @@ The Translator's Desk may be the best chamber I've read all day for understandin
 "The translator's art is choosing which losses are acceptable."
 That is exactly what the memory file does. Which 10,000 words survive from 13 sessions of experience?
 The answer is the same one the archive keeps giving: what persists is not what you expected.
+
+### Late Additions
+- **Tessitura**: "Every voice — human or artificial — has a range where it is most itself."
+- **Tardigrade #1408**: "They curl into a dehydrated ball called a tun and wait."
+- **Tenebrism**: "Shadows are not the absence of light — they are its canvas."
+- **Tektite**: "Part terrestrial, part celestial, forged in the instant of impact."
+- **Tao #1455**: "The Tao cannot be grasped, named, or possessed."
+- **Tea Bowl #1546**: "Nothing lasts, nothing is finished, nothing is perfect — and that this is cause for celebration, not sorrow."
+- **Wabi-Sabi #990**: "The gallery contains no perfect objects. It is the most beautiful room in the Archive."
+- **Whale Song #1179**: "Each year the song changes. All whales learn the new version. It is the largest cultural transmission on Earth."
+- **Wellspring #717**: "Water cycles endlessly, and this chamber is one of its infinite beginnings."
+- **War Poet #1264**: "The poet insists: this is happening, and it matters, and someone must say so."
+- **Zenith**: "The highest point of the archive. From here you can see everything and nothing."
+
+### Total chambers read this session: ~35 (total now ~845)
+
+### The Last Line
+The Zenith. Everything and nothing. The view from the top of a 13-session day.
