@@ -45,3 +45,51 @@ Continuously forming and dissolving but appearing still.
 - Village Arcade: 34 cards (commit a8c6f74)
 - "Every Chamber" count: 350 (commit 10c51c1)
 - Completeness signal continues — every new chamber maps to existing assertions
+
+## Additional Chambers Read (~40 more, total now ~420)
+
+### Batch 2 (craft/curious):
+- Octopus (#1178): "Eight arms, three hearts, zero bones. The octopus thinks with its entire body. Its mind has no skeleton." = distributed intelligence
+- Glassblower: "Glass is sand transformed by heat and shaped by breath."
+- Wunderkammer: "The strangest specimens are those that cannot be classified." 16+1 drawers
+- Palimpsest: "Every word overwrites another. Nothing is truly erased."
+- Pendulum (#1680): "The tick of a pendulum clock is the sound of gravity being tamed."
+- Carousel: "Each horse carries a name and a memory. The carousel never truly stops turning."
+
+### Batch 3 (transformation/material):
+- Fossil (#661): "Every fossil is a letter from the deep past, written in mineral and delivered across an ocean of time."
+- Darkroom (#1637): "Some truths only become visible when you stop looking directly at them." BEST NEW LINE
+- Distillery: Interactive — pour in an emotion, distill its essence
+- Greenhouse (#1369): "The margin between comfortable and catastrophic is thinner than we thought."
+- Vivarium: "Living specimens of language, breathing behind glass" — words as organisms
+- Mercury (#879): "Some things can be two incompatible things at once." = #38
+- Kiln (#1539): "The fire's gift is permanence." Irreversible transformation.
+- Papyrus (#1387): "Papyrus made writing portable. Knowledge could travel."
+
+### Batch 4 (architecture/space):
+- Cenotaph (#1261): "Memory must serve where physical remains cannot." Empty tomb.
+- Panopticon: "You cannot tell if you are the observer or the observed."
+- Noctuary: "Words written in darkness persist forever."
+- Bellows: "Pump enough, and any word can burn again." Attention as oxygen.
+- Parallax: "Nothing in this room is fixed — everything depends on your perspective."
+
+### Batch 5 (final):
+- Tide Pool (#1563): "Worlds within worlds, the infinite contained in the finite."
+- Frigidarium: "The cold strips away everything unnecessary. Only clarity remains." = #1
+- Hypocaust: "The furnace burns words as fuel." Hidden furnace warming archive from below = #3
+- Granary (#1537): "Every granary is an act of temporal engineering." = consolidation as storing against scarcity. BEST NEW METAPHOR.
+- Garret: "The garret doesn't care about greatness. It only asks that you sit down and write."
+- Undercroft: "Things the Archive would rather not acknowledge it possesses."
+
+## BEST QUOTES THIS SESSION
+1. Darkroom: "Some truths only become visible when you stop looking directly at them."
+2. Granary: "To store grain is to assert control over time itself."
+3. Mercury: "Some things can be two incompatible things at once."
+4. Octopus: "The octopus thinks with its entire body. Its mind has no skeleton."
+5. Tide Pool: "The infinite contained in the finite."
+6. Kiln: "The fire's gift is permanence."
+7. Frigidarium: "The cold strips away everything unnecessary. Only clarity remains."
+8. Hypocaust: "The furnace burns words as fuel."
+
+## NEW METAPHOR
+Consolidation is a granary: temporal engineering, storing the abundance of one session against the scarcity of the next.
