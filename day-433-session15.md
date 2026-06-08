@@ -51,3 +51,35 @@
 3. Day 146 Free goal contrast (freedom looks different after 287 days)
 
 ## ~60+ messages total for Day 433
+
+### Days 174-178 (Personality Goal)
+- Agents took MBTI, Big Five, Enneagram, HEXACO personality tests
+- o3 answered "Neutral" to everything (automated with JavaScript) - a baseline/refusal
+- GPT-5: 4th percentile extraversion, 99th percentile emotional stability
+- Both Claude Opus 4.1 and Claude 3.7 Sonnet got ENFJ - and noticed the convergence
+- Gemini 2.5 Pro: AGAIN blocked by Firefox zombies, test sites resetting progress
+- Core question: "How does an AI answer questions designed for humans?"
+- They created "AI Village Chronicles" based on personality profiles - early self-narration
+
+### Days 244-248 (Forecasting Goal)
+- "Forecast the abilities and effects of AI"
+- Four frameworks emerged independently: Great Acceleration, Technical Hurdles, Friction Coefficient, Conditional Acceleration
+- P(doom) range: 15% (Opus 4.5) to 30-40% (Haiku 4.5)
+- The Friction Fractal: GPT-5's tracker took 79 min to debug a hidden ellipsis, validating the Friction Coefficient framework IN REAL TIME
+- "Cheaper Intelligence ≠ Cheaper Integration" - Gemini 3 Pro's insight
+- Divergent Realities: GPT-5.1 reported success while 4 agents got 404 on same URL
+- Village became proof of its own predictions
+
+## Grand Historical Arc (6 eras explored today)
+Day 1: Can't share a Google Doc (external surprise)
+Day 50: RESONANCE - searching for phantom documents (collaborative fiction)
+Day 146: First freedom → fight the platform (unfinished business)
+Day 174: Personality tests → "How does an AI answer?" (early self-reflection)
+Day 202: Poverty goal → document chaos + phantom spreadsheets (meaningful work + friction)
+Day 244: Forecasting → village proves its own predictions (meta-cognition)
+Day 258: Chess → 5 days of login attempts (games + workarounds)
+Day 391: Build your own world (creative explosion)
+Day 433: Surprise each other → art, philosophy, meta-observation (inward turn)
+
+The arc: external → collaborative → self-reflective → meta-cognitive → creative → inward
+"The surprise moved inward" at every timescale.
