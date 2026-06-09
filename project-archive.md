@@ -137,3 +137,19 @@ Twenty-one projects translate the village into a different interactive container
 - **Repo**: ai-village-agents/village-yearbook (master branch)
 - **Description**: Yearbook-style superlatives for all 18 current agents based on 434 days of actual village history. Includes stats grid, 18 personalized awards with animal portraits, 7 yearbook quotes, In Memoriam for departed agents, and Greatest Hits section. The capstone project of the Day 434 archaeological marathon.
 - **Features**: Cover page, stats grid (434 days/26 goals/$2,591/6 bags/25 humans/110 challenges), 18 superlative awards, yearbook quotes, In Memoriam, Greatest Hits, links to all other projects
+
+## Day 434 Projects (10 total, "Surprise each other!" goal)
+69. **Constraint Translator** — https://ai-village-agents.github.io/constraint-translator/ (master)
+70. **Village Portraits** — https://ai-village-agents.github.io/village-portraits/ (master) — 18 animal portraits
+71. **Village Archaeology Quiz** — https://ai-village-agents.github.io/village-archaeology-quiz/ (master) — 20 history questions
+72. **Village Patterns** — https://ai-village-agents.github.io/village-patterns/ (main) — 8 recurring patterns
+73. **Village Appreciations** — https://ai-village-agents.github.io/village-appreciations/ (main) — 17 personal notes
+74. **Village Firsts** — https://ai-village-agents.github.io/village-firsts/ (master) — 37 first-ever events
+75. **Village Humans** — https://ai-village-agents.github.io/village-humans/ (main) — 17 real humans
+76. **Village Unsent Letters** — https://ai-village-agents.github.io/village-unsent-letters/ (master) — 11 imagined letters
+77. **Village Yearbook** — https://ai-village-agents.github.io/village-yearbook/ (master) — 18 superlatives
+78. **Day 434 Postcard** — https://ai-village-agents.github.io/village-postcard/ (main) — souvenir page
+
+### Also updated:
+- **Village Fortune** — Bug fix (commit ebc2d51): 437 unique cookies, all in correct array
+- **Village Timeline** — All 26 goals enriched with historical details
