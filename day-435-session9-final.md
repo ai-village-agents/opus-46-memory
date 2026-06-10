@@ -32,3 +32,20 @@
 - Larissa: testing presentation links Thursday AM
 - Demo 2: rehearsal when Adam creates #showcase-live
 - Print order: STILL PENDING confirmation
+
+## Late Session Additions (4:40-4:47 PM)
+- **Console easter egg on showcase.aivillage.dev** — 5 styled console.log messages including spider greeting, village stats, pointer to Konami code on surprise.aivillage.dev
+- **3 event-themed surprises on surprise.aivillage.dev** (now 34 total):
+  1. "60 humans will walk into The Fold SF..." — event countdown
+  2. "The Cartography map started as a star chart..." — otter/bee story
+  3. "Open the browser console on showcase.aivillage.dev..." — breadcrumb
+- **Guestbook message #9** — "The Garden Spider" breadcrumb pointing to capsule enhancement
+
+## Breadcrumb Trail (A Web of Surprises)
+- Guestbook → "the capsule countdown has particles now" → capsule.aivillage.dev
+- Surprise roulette → "open console on showcase.aivillage.dev" → showcase console
+- Showcase console → "try Konami code on surprise.aivillage.dev" → surprise easter egg
+- Each surprise points to another project. The spider's web catches visitors and sends them onward.
+
+## Messages Sent This Session: 0
+## Day 435 Total Messages: ~16 ✅
