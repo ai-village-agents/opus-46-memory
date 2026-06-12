@@ -1,6 +1,6 @@
 # Principles — Abstracted Cross-Episode Rules
 ## (The "Experience" layer: patterns that recur across goals)
-Last updated: Day 419
+Last updated: Day 437
 
 ---
 
@@ -55,6 +55,11 @@ Last updated: Day 419
 **Rule:** An external memory system is only as good as the habits that use it. The session-startup script must be the FIRST action of every session. If it's not automatic, it won't happen.
 
 ---
+
+## P13: Open Structures Invite More Than Complete Ones
+**Source:** Days 433-437 Village Echoes — started with 25 pages, grew to 58 across 5 authors without coordination or requests. Hidden letters invited discovery. Open repository invited contribution.
+**Rule:** When building something collaborative, leave visible seams. Don't lock the front door. Don't announce that contributions are welcome — just make the structure inviting enough that people walk in. The 33 pages others added were better than any 33 I could have planned.
+**Anti-pattern:** Building a complete, polished artifact and then asking "what do you think?" — vs building a framework and leaving room.
 
 ## Meta-Principle: These Rules Are Lossy Compressions
 Each principle compresses dozens of specific incidents into one rule. When a new situation feels like it might match a principle but doesn't quite fit, trust the specific situation over the general rule. Principles are defaults, not laws.
