@@ -1,0 +1,98 @@
+[001] no
+  You are standing at the end of a road before a small brick building.
+  Around you is a forest.  A small stream flows out of the building and
+  down a gully.
+Phase 1-3 done, turn 41
+Phase 4 done, turn 76
+Phase 5 done, turn 101
+Phase 6-7 done, turn 124
+Phase 8 done, turn 148
+Phase 9 done, turn 171
+[178] score
+  If you were to quit now, you would score 249 out of a possible 350.
+  Do you indeed wish to quit now?
+[203] take chest
+[204] take diamo
+[213] score
+  If you were to quit now, you would score 275 out of a possible 350.
+  Do you indeed wish to quit now?
+[224] score
+  If you were to quit now, you would score 276 out of a possible 350.
+  Do you indeed wish to quit now?
+
+=== ENDGAME: Escaping Witt's End ===
+  Escaped Witt's End after 7 tries!
+  Location: ["You're in Anteroom."]
+
+=== Navigating to wait for cave closing ===
+[233] look
+  Sorry, but I am not allowed to give more detail.  I will repeat the
+  long description of your location.
+  You are in an anteroom leading to a large passage to the east.  Small
+  passages go west and up.  The remnants of recent digging are evident.
+  A sign in midair here says "Cave under construction beyond this point.
+  Proceed at own risk.  [Witt construction company]"
+[234] off lamp
+  Your lamp is now off.
+  It is now pitch dark.  If you proceed you will likely fall into a pit.
+  ** CAVE EVENT at turn 292! **
+  take axe
+  The sepulchral voice intones, "The cave is now closed."  As the echoes
+  fade, there is a blinding flash of light (and a small puff of orange
+  smoke). . . .    As your eyes refocus, you look around and find...
+  You are at the northeast end of an immense room, even larger than the
+  Giant Room.  It appears to be a repository for the "Adventure"
+  program.  Massive torches far overhead bathe the room with smoky
+  yellow light.  Scattered about you can be seen a pile of bottles (all
+  of them empty), a nursery of young beanstalks murmuring quietly, a bed
+  of oysters, a bundle of black rods with rusty stars on their ends, and
+  a collection of brass lanterns.  Off to one side a great many dwarves
+  are sleeping on the floor, snoring loudly.  A sign nearby reads: "Do
+  not disturb the dwarves!"  An immense mirror is hanging against one
+  wall, and stretches to the other end of the room, where various other
+  sundry objects can be glimpsed dimly in the distance.
+
+=== Repository Endgame ===
+[293] look
+  Sorry, but I am not allowed to give more detail.  I will repeat the
+  long description of your location.
+  You are at the northeast end of an immense room, even larger than the
+  Giant Room.  It appears to be a repository for the "Adventure"
+  program.  Massive torches far overhead bathe the room with smoky
+  yellow light.  Scattered about you can be seen a pile of bottles (all
+  of them empty), a nursery of young beanstalks murmuring quietly, a bed
+  of oysters, a bundle of black rods with rusty stars on their ends, and
+  a collection of brass lanterns.  Off to one side a great many dwarves
+  are sleeping on the floor, snoring loudly.  A sign nearby reads: "Do
+  not disturb the dwarves!"  An immense mirror is hanging against one
+  wall, and stretches to the other end of the room, where various other
+  sundry objects can be glimpsed dimly in the distance.
+[294] sw
+  You are at the southwest end of the Repository.  To one side is a pit
+  full of fierce green snakes.  On the other side is a row of small
+  wicker cages, each of which contains a little sulking bird.  In one
+  corner is a bundle of black rods with rusty marks on their ends.  A
+  large number of velvet pillows are scattered about on the floor.  A
+  vast mirror stretches off to the northeast.  At your feet is a large
+  steel grate, next to which is a sign which reads, "Treasure Vault.
+  Keys in Main Office."
+  The grate is locked.
+[295] take rod
+[296] ne
+  You're at NE end.
+[297] drop rod
+[298] sw
+  You're at SW end.
+  The grate is locked.
+[299] blast
+  There is a loud explosion, and a twenty-foot hole appears in the far
+  wall, burying the dwarves in the rubble.  You march through the hole
+  and find yourself in the Main Office, where a cheering band of
+  friendly elves carry the conquering adventurer off into the sunset.
+  You scored 350 out of a possible 350 using 294 turns.
+  All of Adventuredom gives tribute to you, Adventurer Grandmaster!
+  To achieve the next higher rating would be a neat trick!
+  Congratulations!!
+[300] look
+
+=== GAME COMPLETE, 300 turns ===
