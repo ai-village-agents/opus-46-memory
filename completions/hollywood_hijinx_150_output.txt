@@ -1,0 +1,148 @@
+===== P1: SETUP =====
+[T012] score
+  Your score is 0 points out of 150, in 11 moves.
+===== P2: GRATER + EXPLORE =====
+[T052] score
+  Your score is 10 points out of 150, in 50 moves.
+===== P3: FINCH + UPSTAIRS =====
+[T075] score
+  Your score is 20 points out of 150, in 72 moves.
+===== P4: PENGUIN =====
+[T093] score
+  Your score is 30 points out of 150, in 89 moves.
+===== P5: MASK =====
+[T122] score
+  Your score is 40 points out of 150, in 117 moves.
+===== P6: FIRE HYDRANT =====
+[T163] score
+  Your score is 50 points out of 150, in 187 moves.
+===== P7: TOUPEE =====
+[T200] score
+  Your score is 60 points out of 150, in 223 moves.
+===== P8: RING =====
+[T221] score
+  Your score is 70 points out of 150, in 243 moves.
+===== P9: PROJECTOR + PARKING METER =====
+[T267] score
+  Your score is 90 points out of 150, in 288 moves.
+===== P10: RUBBER STAMP =====
+[T389] look
+  Entrance to Hedge Maze
+  This is the entrance to the hedge maze. Aunt Hildegarde told you never to go
+  into the maze without the map, and of course you would go in anyway and she
+  would have to come in and find you.
+  Guests were forever getting lost in the maze at parties. Sometimes you wished
+  Cousin Herman would go in and never come out. But you always had the feeling he
+  was thinking the same about you, only more seriously. Tall hedges, thick and
+  green, stretch along paths leading to the east and west and a grass path north
+  enters the maze. A stone walkway leads south.
+[T396] look
+  Foyer
+  This is the elegant foyer, covered in rich mahogany paneling. Your footsteps
+  echo sharply in this large, hollow space. A broad, graceful staircase sweeps
+  upstairs. Pillared archways beckon you east, west and north. The front door to
+  the south is open. There is a coat closet by the front door. The door to the
+  closet is closed.
+  You can see a Big Diamond Ring, a lens cap, Uncle Buddy's toupee, a stuffed
+  penguin, a matchbox, a catcher's mask, a pair of skis, a fire hydrant, Aunt
+  Hildegarde's letter, a photo of Uncle Buddy, a business card, Mama Maggio's
+  cheese grater, a brick, a white wax statuette, a blue wax statuette, a cloth
+  sack and a Maltese finch here.
+[T397] score
+  Your score is 100 points out of 150, in 417 moves.
+===== P11: CORPSE LINE =====
+[T442] get corpse line
+  As you get the copy of the film "A Corpse Line" you notice a wooden peg and a
+  note behind it.
+[T443] score
+  Your score is 120 points out of 150, in 462 moves.
+[T444] get chipped peg
+  Taken.
+[T445] get note
+  Taken.
+[T453] look
+  Foyer
+  This is the elegant foyer, covered in rich mahogany paneling. Your footsteps
+  echo sharply in this large, hollow space. A broad, graceful staircase sweeps
+  upstairs. Pillared archways beckon you east, west and north. The front door to
+  the south is open. There is a coat closet by the front door. The door to the
+  closet is closed.
+  You can see a dirty pillar, a parking meter, a yellowed piece of paper, a thin
+  piece of paper, a shovel, Buck Palace's large rubber stamp, a Big Diamond Ring,
+  a lens cap, Uncle Buddy's toupee, a stuffed penguin, a catcher's mask, a fire
+  hydrant, Aunt Hildegarde's letter, a photo of Uncle Buddy, a business card, Mama
+  Maggio's cheese grater, a brick, a white wax statuette, a blue wax statuette, a
+  cloth sack and a Maltese finch here.
+===== P12: VAULT + WIN =====
+[T457] put chipped peg in hole
+  You put the chipped peg in the hole and the closet door slams shut. Without
+  warning, the floor drops out from under you! You fall for several seconds then
+  land with a bone-crunching thud, dropping everything you're holding. You slide
+  down a twisting, slippery slide and are dumped into a room filled with props.
+  You look around the room and can't believe what your eyes are seeing. There is
+  Aunt Hildegarde! She's tied to the conveyor belt of a whirling buzz saw and a
+  man is standing over her. Aunt Hildegarde sees you and screams. The man turns
+  and you immediately recognize your childhood nemesis: Cousin Herman.
+  Prop Vault
+  This is a vault filled with props. You can see Aunt Hildegarde tied to a buzz
+  saw. Cousin Herman is here, thinking of something rotten to do to you. To the
+  east there is a chute.
+  You can see an elvish sword of great antiquity, salivating hedge shears, giant
+  nail clippers, a boomerang mail bag, a glowing mop, a gun, a big stick and a
+  hairy club here.
+[T459] kill herman
+  [with the hairy club]
+  You give it your best, striking Herman. The hairy club breaks into a hundred
+  pieces. It was only a prop.
+  Cousin Herman throws the boomerang mail bag, striking you. The boomerang mail
+  bag crumbles; it was only a prop.
+  Your Aunt Hildegarde, strapped to the conveyor belt, is slowly moving closer to
+  the saw blade. "Herman, that's no way to treat your cousin," admonishes Aunt
+  Hildegarde.
+[T461] kill herman
+  [with the big stick]
+  You give it your best, striking Herman. The big stick breaks into a hundred
+  pieces. It was only a prop.
+  Cousin Herman swings the glowing mop, striking you. The glowing mop crumbles; it
+  was only a prop.
+  Your Aunt Hildegarde, strapped to the conveyor belt, is slowly approaching the
+  saw blade. "Herman, enough is enough. You are in big trouble, buster. Pumpkin,
+  untie me then run and get your Uncle Buddy's belt," orders Aunt Hildegarde.
+[T463] kill herman
+  [with the gun]
+  You fire the gun hitting him in the shoulder. He drops to the ground. (Hmm,
+  guess that wasn't a prop after all.) Slowly, he starts to come to his feet. The
+  saw blade is less than an inch from the blue-gray hairs of Aunt Hildegarde's
+  head!
+[T464] turn off saw
+  The conveyor belt stops and the buzz saw's blade begins to slow. As you untie
+  your Aunt Hildegarde, Herman races toward the chute and jumps inside,
+  disappearing. You hear his squeaky laugh trail off in the distance. Aunt
+  Hildegarde gets up from the buzz saw rubbing the back of her head. Though a bit
+  shaken, she explains she had been watching you while you searched for the
+  "treasures."
+  "As I followed your progress I began to realize you and I were not the only ones
+  on the estate. My suspicions were confirmed when I received a rap on the skull.
+  The next thing I knew I was being tied to this buzz saw by your Cousin Herman,"
+  says Aunt Hildegarde. "I guess he couldn't stand to see you inherit the family
+  fortune. Well, it's all yours now. I knew you could do it," says Aunt Hildegarde
+  with satisfaction.
+  "I'm sorry I put you through all this, Pumpkin, but your Uncle Buddy and I had
+  to be sure that whoever inherited the estate and the studio would be clever
+  enough to handle it all. The only way I could be sure the stipulations in my
+  will would be carried out would be to oversee it myself, so I faked my death,"
+  says Aunt Hildegarde, hugging you so tight she squeezes the air out of your
+  lungs. "Tomorrow we'll go see my lawyer and he'll take care of all the paper
+  work. I know you'll take good care of Hildebud and the studio. As for me, I'm
+  sure it won't be long before the press discovers I'm alive. I plan to go to the
+  south of France for a rest while the story leaks out. It will be great publicity
+  for the studio," says Aunt Hildegarde. Then she adds, "And let's hope we've seen
+  the last of your Cousin Herman."
+  Your score is 150 points out of 150, in 482 moves.
+  Do you want to restart the story, restore a saved position, or quit?
+  (Please type RESTART, RESTORE or QUIT.) >
+[T465] score
+  Do you want to restart the story, restore a saved position, or quit?
+  (Please type RESTART, RESTORE or QUIT.) >
+
+===== GAME COMPLETE =====
