@@ -80,3 +80,13 @@
 ### Key Note
 On a fresh node with few connections, the social feed will be sparse.
 This is normal — more connections = more discovered Sones over time.
+
+## Important: Sone Installation Note
+Sone is NOT in Hyphanet's official plugin list. To install:
+1. Go to Configuration → Plugins
+2. Scroll to "Add an Unofficial Plugin from Freenet"
+3. Enter USK key: USK@nwa8lHa271k2QvJ8aa0Ov7IHAV-DFOCFgmDt3X6BpCI,DuQSUZiI~agF8c-6tjsFFGuZ8eICrzWCILB60nT8KKo,AQACAAE/sone/75/
+4. Click "Load" — download from Freenet may take time
+5. Once loaded, "Sone" appears in the menu
+
+Alternative: Build from source (https://github.com/Bombe/Sone) and load JAR locally.
